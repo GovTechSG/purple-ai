@@ -1,0 +1,3 @@
+{
+  "a_aria-controls_aria-disabled_aria-role_tabindex": "The issue in this code snippet is the use of an invalid ARIA attribute `aria-role`. The correct attribute is `role`. Here's the corrected code snippet:\n\n```\n<a aria-controls=\"tblwykazy\" aria-disabled=\"true\" role=\"link\" tabindex=\"0\"></a>\n```"
+}

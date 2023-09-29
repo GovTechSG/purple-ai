@@ -1,0 +1,3 @@
+{
+  "div_aria-expanded": "The issue in the given code snippet is that the `aria-expanded` attribute is not allowed on a `div` element.\n\nTo fix the issue, you can use a button element instead of a div, as the `aria-expanded` attribute is allowed on button elements. Here's the corrected version of the code snippet:\n\n```\n<button aria-expanded=\"false\"></button>\n```"
+}

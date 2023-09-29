@@ -1,2 +1,1 @@
-# purple-ai
-GPT responses for Accessibility
+# purple-ai-test

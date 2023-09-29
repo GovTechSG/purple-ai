@@ -1,3 +1,55 @@
-{  
-  "lastUpdated": "01/09/2023, 12:00:00 AM"
+{
+  "lastUpdated": "9/29/2023, 8:07:04 AM",
+  "label": [
+    "input_tabindex_value",
+    "input_type_value",
+    "input_type",
+    "input_name_style"
+  ],
+  "aria-required-parent": ["a_role=\"tab\""],
+  "aria-required-children": ["ul_role=\"tablist\""],
+  "landmark-unique": [
+    "nav",
+    "nav_aria-label",
+    "footer_onclick",
+    "div_aria-label_role",
+    "header",
+    "nav_style",
+    "main",
+    "nav_role",
+    "iframe_aria-label_name_role_style_tabindex_title"
+  ],
+  "aria-allowed-role": [
+    "button_role=\"presentation\"",
+    "form_role=\"form\"",
+    "input_role=\"button\"",
+    "a_role=\"tooltip\"",
+    "button_role=\"heading\"",
+    "iframe_role=\"region\"",
+    "section_role=\"tablist\"",
+    "textarea_role=\"combobox\"",
+    "label_role=\"radio\"",
+    "section_role=\"list\"",
+    "li_role=\"button\"",
+    "input_role=\"link\""
+  ],
+  "presentation-role-conflict": ["button_role_type_i"],
+  "scrollable-region-focusable": ["div"],
+  "aria-allowed-attr": ["div_aria-expanded"],
+  "select-name": ["select_name"],
+  "aria-hidden-focus": [
+    "div_aria-hidden_style",
+    "li_aria-controls_aria-hidden_aria-selected_role_button_role_tabindex_type"
+  ],
+  "aria-input-field-name": ["div_role_style", "div_role"],
+  "aria-toggle-field-name": [
+    "div_aria-describedby_aria-hidden_role_style_tabindex"
+  ],
+  "aria-valid-attr": ["a_aria-controls_aria-disabled_aria-role_tabindex"],
+  "aria-roles": [
+    "section_role=\"main-content\"",
+    "aside_role=\"right-content\"",
+    "fieldset_role=\"radio-group\"",
+    "div_role=\"pagination\""
+  ]
 }
