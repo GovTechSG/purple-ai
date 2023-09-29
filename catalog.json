@@ -1,10 +1,12 @@
 {
-  "lastUpdated": "9/29/2023, 8:07:04 AM",
+  "lastUpdated": "9/29/2023, 9:49:15 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
     "input_type",
-    "input_name_style"
+    "input_name_style",
+    "input_name_type",
+    "textarea_name_tabindex"
   ],
   "aria-required-parent": ["a_role=\"tab\""],
   "aria-required-children": ["ul_role=\"tablist\""],
@@ -34,7 +36,7 @@
     "input_role=\"link\""
   ],
   "presentation-role-conflict": ["button_role_type_i"],
-  "scrollable-region-focusable": ["div"],
+  "scrollable-region-focusable": ["div", "pre"],
   "aria-allowed-attr": ["div_aria-expanded"],
   "select-name": ["select_name"],
   "aria-hidden-focus": [
