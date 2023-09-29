@@ -1,0 +1,36 @@
+name: Purple AI Updater 
+on: workflow_dispatch
+   schedule:
+     - cron: '0 3 * * 4'
+jobs: 
+  purpleAIUpdater: 
+    runs-on: ubuntu-latest
+    environment: dev
+    steps: 
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3 
+        with: 
+          node-version: 16 
+      - run: env
+      - name: Install dependencies
+        run: npm ci 
+      - name: Configure github credentials 
+        run: |
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Run Purple AI Updater script 
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_API_ENDPOINT }}
+          OPENAI_FLOW_ID: ${{ secrets.OPENAI_FLOW_ID }}
+          SCOPE: ${{ secrets.SCOPE }}
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: |
+          node updater/purpleAIUpdater.js 
+      - name: Upload Artifact 
+        uses: actions/upload-artifact@v3
+        with: 
+          name: errors.txt 
+          path: errors.txt 
