@@ -1,12 +1,14 @@
 {
-  "lastUpdated": "9/29/2023, 9:49:15 AM",
+  "lastUpdated": "10/5/2023, 3:07:38 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
     "input_type",
     "input_name_style",
     "input_name_type",
-    "textarea_name_tabindex"
+    "textarea_name_tabindex",
+    "input_aria-autocomplete_aria-expanded_aria-haspopup_role_type",
+    "input_aria-controls_name"
   ],
   "aria-required-parent": ["a_role=\"tab\""],
   "aria-required-children": ["ul_role=\"tablist\""],
@@ -19,7 +21,9 @@
     "nav_style",
     "main",
     "nav_role",
-    "iframe_aria-label_name_role_style_tabindex_title"
+    "iframe_aria-label_name_role_style_tabindex_title",
+    "main_style",
+    "header_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -33,25 +37,46 @@
     "label_role=\"radio\"",
     "section_role=\"list\"",
     "li_role=\"button\"",
-    "input_role=\"link\""
+    "input_role=\"link\"",
+    "a_role=\"navigation\"",
+    "img_role=\"button\"",
+    "li_role=\"tabpanel\""
   ],
-  "presentation-role-conflict": ["button_role_type_i"],
-  "scrollable-region-focusable": ["div", "pre"],
-  "aria-allowed-attr": ["div_aria-expanded"],
-  "select-name": ["select_name"],
+  "presentation-role-conflict": [
+    "button_role_type_i",
+    "img_alt_role_src_style_tabindex"
+  ],
+  "scrollable-region-focusable": ["div", "pre", "table", "div_img_src", "p"],
+  "aria-allowed-attr": [
+    "div_aria-expanded",
+    "div_aria-controls_aria-expanded_aria-haspopup",
+    "fieldset_aria-required",
+    "div_aria-label_style_tabindex_title"
+  ],
+  "select-name": ["select_name", "select_name_option_value_option_value"],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
-    "li_aria-controls_aria-hidden_aria-selected_role_button_role_tabindex_type"
+    "li_aria-controls_aria-hidden_aria-selected_role_button_role_tabindex_type",
+    "li_aria-hidden_style_a_href_img_alt_src",
+    "div_aria-hidden"
   ],
-  "aria-input-field-name": ["div_role_style", "div_role"],
+  "aria-input-field-name": [
+    "div_role_style",
+    "div_role",
+    "span_aria-autocomplete_aria-expanded_aria-haspopup_aria-owns_role_tabindex"
+  ],
   "aria-toggle-field-name": [
     "div_aria-describedby_aria-hidden_role_style_tabindex"
   ],
-  "aria-valid-attr": ["a_aria-controls_aria-disabled_aria-role_tabindex"],
+  "aria-valid-attr": [
+    "a_aria-controls_aria-disabled_aria-role_tabindex",
+    "h3_aria-exapanded_tabindex"
+  ],
   "aria-roles": [
     "section_role=\"main-content\"",
     "aside_role=\"right-content\"",
     "fieldset_role=\"radio-group\"",
     "div_role=\"pagination\""
-  ]
+  ],
+  "meta-viewport-large": ["meta_content_name"]
 }
