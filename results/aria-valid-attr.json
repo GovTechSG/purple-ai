@@ -1,3 +1,4 @@
 {
-  "a_aria-controls_aria-disabled_aria-role_tabindex": "The issue in this code snippet is the use of an invalid ARIA attribute `aria-role`. The correct attribute is `role`. Here's the corrected code snippet:\n\n```\n<a aria-controls=\"tblwykazy\" aria-disabled=\"true\" role=\"link\" tabindex=\"0\"></a>\n```"
+  "a_aria-controls_aria-disabled_aria-role_tabindex": "The issue in this code snippet is the use of an invalid ARIA attribute `aria-role`. The correct attribute is `role`. Here's the corrected code snippet:\n\n```\n<a aria-controls=\"tblwykazy\" aria-disabled=\"true\" role=\"link\" tabindex=\"0\"></a>\n```",
+  "h3_aria-exapanded_tabindex": "The issue in the code snippet is the misspelled ARIA attribute `aria-exapanded`. The correct attribute should be `aria-expanded`. Here's the corrected code snippet:\n\n```html\n<h3 aria-expanded=\"false\" tabindex=\"0\"></h3>\n```"
 }

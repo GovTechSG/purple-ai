@@ -1,0 +1,3 @@
+{
+  "meta_content_name": "The issue in the given code snippet is that the maximum scale is limited to 2.0, which might not provide enough scaling for users who need larger text or images for better accessibility. To fix this, you can remove the maximum-scale attribute or set it to a higher value. Here's the corrected code snippet:\n\n```html\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes\">\n```\n\nBy removing the maximum-scale attribute, the user's browser will decide the maximum scale, allowing for better accessibility."
+}
