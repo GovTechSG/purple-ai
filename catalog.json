@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "10/5/2023, 3:07:38 AM",
+  "lastUpdated": "10/12/2023, 3:08:24 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -8,7 +8,8 @@
     "input_name_type",
     "textarea_name_tabindex",
     "input_aria-autocomplete_aria-expanded_aria-haspopup_role_type",
-    "input_aria-controls_name"
+    "input_aria-controls_name",
+    "input"
   ],
   "aria-required-parent": ["a_role=\"tab\""],
   "aria-required-children": ["ul_role=\"tablist\""],
@@ -23,7 +24,10 @@
     "nav_role",
     "iframe_aria-label_name_role_style_tabindex_title",
     "main_style",
-    "header_role"
+    "header_role",
+    "nav_aria-labelledby_role",
+    "nav_role_tabindex",
+    "footer"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -40,37 +44,60 @@
     "input_role=\"link\"",
     "a_role=\"navigation\"",
     "img_role=\"button\"",
-    "li_role=\"tabpanel\""
+    "li_role=\"tabpanel\"",
+    "li_role=\"alert\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
     "img_alt_role_src_style_tabindex"
   ],
-  "scrollable-region-focusable": ["div", "pre", "table", "div_img_src", "p"],
+  "scrollable-region-focusable": [
+    "div",
+    "pre",
+    "table",
+    "div_img_src",
+    "p",
+    "pre_code_span",
+    "pre_code",
+    "pre_language",
+    "pre_language_code"
+  ],
   "aria-allowed-attr": [
     "div_aria-expanded",
     "div_aria-controls_aria-expanded_aria-haspopup",
     "fieldset_aria-required",
-    "div_aria-label_style_tabindex_title"
+    "div_aria-label_style_tabindex_title",
+    "span_aria-expanded",
+    "a_role=\"menuitemradio\"",
+    "span_aria-sort",
+    "mat-chip-list_aria-disabled_aria-invalid_aria-label_aria-multiselectable_aria-orientation_tabindex"
   ],
-  "select-name": ["select_name", "select_name_option_value_option_value"],
+  "select-name": [
+    "select_name",
+    "select_name_option_value_option_value",
+    "select_style"
+  ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
     "li_aria-controls_aria-hidden_aria-selected_role_button_role_tabindex_type",
     "li_aria-hidden_style_a_href_img_alt_src",
-    "div_aria-hidden"
+    "div_aria-hidden",
+    "li_aria-hidden",
+    "shell-root_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
     "div_role",
-    "span_aria-autocomplete_aria-expanded_aria-haspopup_aria-owns_role_tabindex"
+    "span_aria-autocomplete_aria-expanded_aria-haspopup_aria-owns_role_tabindex",
+    "span_aria-readonly_role_span"
   ],
   "aria-toggle-field-name": [
     "div_aria-describedby_aria-hidden_role_style_tabindex"
   ],
   "aria-valid-attr": [
     "a_aria-controls_aria-disabled_aria-role_tabindex",
-    "h3_aria-exapanded_tabindex"
+    "h3_aria-exapanded_tabindex",
+    "div_aria-labeledby_role"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -78,5 +105,6 @@
     "fieldset_role=\"radio-group\"",
     "div_role=\"pagination\""
   ],
-  "meta-viewport-large": ["meta_content_name"]
+  "meta-viewport-large": ["meta_content_name"],
+  "aria-required-attr": ["a_role=\"menuitemradio\""]
 }
