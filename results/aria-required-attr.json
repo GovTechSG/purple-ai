@@ -1,0 +1,3 @@
+{
+  "a_role=\"menuitemradio\"": "The issue in the given code snippet is that the element with the role \"menuitemradio\" is missing the required \"aria-checked\" attribute.\n\nHere's the corrected version of the code snippet:\n\n```html\n<a aria-selected=\"false\" href=\"...\" role=\"menuitemradio\" aria-checked=\"false\">\n```\n\nIn this corrected version, the required \"aria-checked\" attribute is added to the element with the role \"menuitemradio\"."
+}
