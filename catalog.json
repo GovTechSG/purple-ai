@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "10/12/2023, 3:08:24 AM",
+  "lastUpdated": "10/19/2023, 3:07:41 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -9,10 +9,11 @@
     "textarea_name_tabindex",
     "input_aria-autocomplete_aria-expanded_aria-haspopup_role_type",
     "input_aria-controls_name",
-    "input"
+    "input",
+    "textarea_name"
   ],
   "aria-required-parent": ["a_role=\"tab\""],
-  "aria-required-children": ["ul_role=\"tablist\""],
+  "aria-required-children": ["ul_role=\"tablist\"", "div_role=\"list\""],
   "landmark-unique": [
     "nav",
     "nav_aria-label",
@@ -27,7 +28,14 @@
     "header_role",
     "nav_aria-labelledby_role",
     "nav_role_tabindex",
-    "footer"
+    "footer",
+    "aside",
+    "div_role",
+    "iframe_src_title",
+    "aside_label_label_label_label_label",
+    "section_aria-labelledby_tabindex",
+    "toggle-section_aria-labelledby_role",
+    "form_aria-label"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -45,7 +53,14 @@
     "a_role=\"navigation\"",
     "img_role=\"button\"",
     "li_role=\"tabpanel\"",
-    "li_role=\"alert\""
+    "li_role=\"alert\"",
+    "a_role=\"article\"",
+    "iframe_src_title",
+    "h3_role=\"button\"",
+    "footer_role=\"region\"",
+    "h3_role=\"text\"",
+    "label_role=\"presentation\"",
+    "ul_role=\"navigation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -60,7 +75,9 @@
     "pre_code_span",
     "pre_code",
     "pre_language",
-    "pre_language_code"
+    "pre_language_code",
+    "div_tabindex",
+    "figure"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -75,7 +92,8 @@
   "select-name": [
     "select_name",
     "select_name_option_value_option_value",
-    "select_style"
+    "select_style",
+    "select_name_tabindex"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -106,5 +124,5 @@
     "div_role=\"pagination\""
   ],
   "meta-viewport-large": ["meta_content_name"],
-  "aria-required-attr": ["a_role=\"menuitemradio\""]
+  "aria-required-attr": ["a_role=\"menuitemradio\"", "div_role=\"combobox\""]
 }
