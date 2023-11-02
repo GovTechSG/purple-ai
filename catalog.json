@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "10/26/2023, 3:08:25 AM",
+  "lastUpdated": "11/2/2023, 3:08:56 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -11,20 +11,27 @@
     "input_aria-controls_name",
     "input",
     "textarea_name",
-    "textarea"
+    "textarea",
+    "input_style_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
     "button_role=\"tab\"",
     "div_role=\"tab\"",
-    "a_role=\"menuitemradio\""
+    "a_role=\"menuitemradio\"",
+    "ytd-mini-guide-entry-renderer_role=\"tab\"",
+    "li_role=\"menuitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
     "div_role=\"list\"",
     "div_role=\"tablist\"",
     "div_role=\"listbox\"",
-    "div_role=\"grid\""
+    "div_role=\"grid\"",
+    "span_role=\"listbox\"",
+    "ul_role=\"menubar\"",
+    "ul_role=\"menu\"",
+    "table_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
@@ -51,7 +58,11 @@
     "nav_a_href_img_alt_src_span",
     "main_role",
     "nav_style_a_a_a_a",
-    "div_aria-live_role"
+    "div_aria-live_role",
+    "nav_div_div_ul",
+    "ul_role",
+    "footer_role",
+    "header_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -80,13 +91,23 @@
     "ul_role=\"search\"",
     "button_role=\"gridcell\"",
     "form_role=\"main\"",
-    "map_role=\"application\""
+    "map_role=\"application\"",
+    "ul_role=\"region\"",
+    "footer_role=\"article\"",
+    "aside_role=\"navigation\"",
+    "input_role=\"search\"",
+    "img_role=\"presentation\"",
+    "a_role=\"presentation\"",
+    "article_role=\"group\"",
+    "section_role=\"article\"",
+    "header_role=\"article\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
     "img_alt_role_src_style_tabindex",
     "li_role_tabindex",
-    "ul_aria-live_role_style"
+    "ul_aria-live_role_style",
+    "a_href_role_tabindex"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -120,7 +141,8 @@
     "li_aria-checked_tabindex",
     "input_aria-expanded_title_type",
     "nav_aria-label_aria-orientation",
-    "div_aria-selected"
+    "div_aria-selected",
+    "fieldset_aria-describedby_aria-required"
   ],
   "select-name": [
     "select_name",
@@ -159,8 +181,13 @@
     "section_role=\"main-content\"",
     "aside_role=\"right-content\"",
     "fieldset_role=\"radio-group\"",
-    "div_role=\"pagination\""
+    "div_role=\"pagination\"",
+    "span_role=\"header\""
   ],
   "meta-viewport-large": ["meta_content_name"],
-  "aria-required-attr": ["a_role=\"menuitemradio\"", "div_role=\"combobox\""]
+  "aria-required-attr": [
+    "a_role=\"menuitemradio\"",
+    "div_role=\"combobox\"",
+    "a_role=\"checkbox\""
+  ]
 }
