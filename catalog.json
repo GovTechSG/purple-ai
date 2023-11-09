@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/2/2023, 3:08:56 AM",
+  "lastUpdated": "11/9/2023, 3:06:15 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -12,7 +12,9 @@
     "input",
     "textarea_name",
     "textarea",
-    "input_style_type"
+    "input_style_type",
+    "input_style_value",
+    "textarea_name_style"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -100,7 +102,9 @@
     "a_role=\"presentation\"",
     "article_role=\"group\"",
     "section_role=\"article\"",
-    "header_role=\"article\""
+    "header_role=\"article\"",
+    "input_role=\"textbox\"",
+    "label_role=\"button\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -120,7 +124,8 @@
     "pre_language",
     "pre_language_code",
     "div_tabindex",
-    "figure"
+    "figure",
+    "div_role_style"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -142,7 +147,9 @@
     "input_aria-expanded_title_type",
     "nav_aria-label_aria-orientation",
     "div_aria-selected",
-    "fieldset_aria-describedby_aria-required"
+    "fieldset_aria-describedby_aria-required",
+    "span_aria-controls_aria-expanded_href",
+    "div_role=\"tabpanel\""
   ],
   "select-name": [
     "select_name",
@@ -150,7 +157,8 @@
     "select_style",
     "select_name_tabindex",
     "select",
-    "select_aria-invalid_aria-required_name"
+    "select_aria-invalid_aria-required_name",
+    "select_aria-describedby_name"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -161,13 +169,15 @@
     "shell-root_aria-hidden",
     "span_aria-expanded_aria-hidden",
     "div_aria-expanded_aria-hidden",
-    "div_aria-hidden_tabindex"
+    "div_aria-hidden_tabindex",
+    "span_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
     "div_role",
     "span_aria-autocomplete_aria-expanded_aria-haspopup_aria-owns_role_tabindex",
-    "span_aria-readonly_role_span"
+    "span_aria-readonly_role_span",
+    "div_aria-orientation_role_tabindex"
   ],
   "aria-toggle-field-name": [
     "div_aria-describedby_aria-hidden_role_style_tabindex"
@@ -182,12 +192,18 @@
     "aside_role=\"right-content\"",
     "fieldset_role=\"radio-group\"",
     "div_role=\"pagination\"",
-    "span_role=\"header\""
+    "span_role=\"header\"",
+    "p_role=\"invalid\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
     "a_role=\"menuitemradio\"",
     "div_role=\"combobox\"",
-    "a_role=\"checkbox\""
-  ]
+    "a_role=\"checkbox\"",
+    "input_role=\"checkbox\"",
+    "div_role=\"slider\"",
+    "input_role=\"radio\"",
+    "input_role=\"combobox\""
+  ],
+  "autocomplete-valid": ["input_name_style_tabindex_type"]
 }
