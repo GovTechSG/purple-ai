@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/16/2023, 3:08:14 AM",
+  "lastUpdated": "11/23/2023, 3:07:14 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -25,7 +25,8 @@
     "div_role=\"tab\"",
     "a_role=\"menuitemradio\"",
     "ytd-mini-guide-entry-renderer_role=\"tab\"",
-    "li_role=\"menuitem\""
+    "li_role=\"menuitem\"",
+    "sl-tree-item_role=\"treeitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -38,7 +39,9 @@
     "ul_role=\"menu\"",
     "table_role=\"tablist\"",
     "div_role=\"table\"",
-    "div_role=\"menu\""
+    "div_role=\"menu\"",
+    "tr_role=\"row\"",
+    "ng-select_role=\"listbox\""
   ],
   "landmark-unique": [
     "nav",
@@ -75,7 +78,9 @@
     "nav_aria-labelledby",
     "cor-toggle_role",
     "cor-expander_role",
-    "div_role_style"
+    "div_role_style",
+    "sgds-masthead_role",
+    "div_role_div_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -118,7 +123,10 @@
     "label_role=\"button\"",
     "li_role=\"article\"",
     "li_role=\"navigation\"",
-    "button_role=\"tooltip\""
+    "button_role=\"tooltip\"",
+    "section_role=\"region\"",
+    "header_role=\"button\"",
+    "footer_role=\"complementary\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -127,7 +135,8 @@
     "ul_aria-live_role_style",
     "a_href_role_tabindex",
     "figure_aria-label_role_style",
-    "svg_aria-label_role_tabindex"
+    "svg_aria-label_role_tabindex",
+    "li_aria-controls_aria-label_role"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -143,7 +152,10 @@
     "figure",
     "div_role_style",
     "pre_em_span_span_span",
-    "div_style"
+    "div_style",
+    "table_style",
+    "div_role",
+    "body"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -174,7 +186,12 @@
     "a_aria-controls_aria-expanded",
     "section_aria-expanded",
     "a_role=\"button\"",
-    "section_aria-expanded_style"
+    "section_aria-expanded_style",
+    "p_aria-level",
+    "span_aria-required",
+    "td_role=\"button\"",
+    "li_role=\"presentation\"",
+    "div_aria-checked"
   ],
   "select-name": [
     "select_name",
@@ -185,7 +202,8 @@
     "select_aria-invalid_aria-required_name",
     "select_aria-describedby_name",
     "select_formcontrolname",
-    "select_name_style"
+    "select_name_style",
+    "select_formcontrolname_name"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -223,7 +241,9 @@
     "p_role=\"invalid\"",
     "nav_role=\"off-canvas\"",
     "div_role=\"widget\"",
-    "input_role=\"email\""
+    "input_role=\"email\"",
+    "div_role=\"section\"",
+    "h1_role=\"header\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -233,10 +253,13 @@
     "input_role=\"checkbox\"",
     "div_role=\"slider\"",
     "input_role=\"radio\"",
-    "input_role=\"combobox\""
+    "input_role=\"combobox\"",
+    "div_role=\"scrollbar\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
-    "input_aria-invalid_aria-label_aria-required_formcontrolname_type"
-  ]
+    "input_aria-invalid_aria-label_aria-required_formcontrolname_type",
+    "input_aria-expanded_role_type"
+  ],
+  "svg-img-alt": ["svg_role_g_path", "svg_role"]
 }
