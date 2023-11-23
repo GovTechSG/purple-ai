@@ -1,0 +1,4 @@
+{
+  "svg_role_g_path": "Issue: The <svg> element has a role of \"img\" but does not have an accessible text.\n\nCorrected code snippet: <svg role=\"img\" aria-label=\"Description of the image\"><g><path></path></g></svg> \n\nExplanation: The aria-label attribute is added to provide a concise description of the image for screen readers and other assistive technologies. This ensures that the content is accessible to all users, including those with disabilities.",
+  "svg_role": "Issue: The <svg> element has a role of \"img\" but does not have an accessible text.\n\nCorrected code snippet: <svg role=\"img\" aria-label=\"Description of the image\">"
+}
