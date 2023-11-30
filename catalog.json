@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/30/2023, 8:15:04 AM",
+  "lastUpdated": "11/30/2023, 9:11:54 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -86,7 +86,8 @@
     "span_aria-label_role",
     "nav_sgds-masthead",
     "section_aria-labelledby",
-    "section_aria-labelledby_aria-roledescription_style"
+    "section_aria-labelledby_aria-roledescription_style",
+    "footer_role_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -135,7 +136,8 @@
     "footer_role=\"complementary\"",
     "label_role=\"option\"",
     "sup_role=\"doc-noteref\"",
-    "button_role=\"none presentation\""
+    "button_role=\"none presentation\"",
+    "main_role=\"presentation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -237,7 +239,8 @@
     "div_role",
     "span_aria-autocomplete_aria-expanded_aria-haspopup_aria-owns_role_tabindex",
     "span_aria-readonly_role_span",
-    "div_aria-orientation_role_tabindex"
+    "div_aria-orientation_role_tabindex",
+    "div_role_div_role_div_role_div_role"
   ],
   "aria-toggle-field-name": [
     "div_aria-describedby_aria-hidden_role_style_tabindex"
