@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/30/2023, 3:07:11 AM",
+  "lastUpdated": "11/30/2023, 8:15:04 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -134,7 +134,8 @@
     "header_role=\"button\"",
     "footer_role=\"complementary\"",
     "label_role=\"option\"",
-    "sup_role=\"doc-noteref\""
+    "sup_role=\"doc-noteref\"",
+    "button_role=\"none presentation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
