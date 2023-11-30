@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/23/2023, 3:07:14 AM",
+  "lastUpdated": "11/30/2023, 3:07:11 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -26,7 +26,9 @@
     "a_role=\"menuitemradio\"",
     "ytd-mini-guide-entry-renderer_role=\"tab\"",
     "li_role=\"menuitem\"",
-    "sl-tree-item_role=\"treeitem\""
+    "sl-tree-item_role=\"treeitem\"",
+    "label_role=\"option\"",
+    "a_role=\"menuitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -80,7 +82,11 @@
     "cor-expander_role",
     "div_role_style",
     "sgds-masthead_role",
-    "div_role_div_role"
+    "div_role_div_role",
+    "span_aria-label_role",
+    "nav_sgds-masthead",
+    "section_aria-labelledby",
+    "section_aria-labelledby_aria-roledescription_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -126,7 +132,9 @@
     "button_role=\"tooltip\"",
     "section_role=\"region\"",
     "header_role=\"button\"",
-    "footer_role=\"complementary\""
+    "footer_role=\"complementary\"",
+    "label_role=\"option\"",
+    "sup_role=\"doc-noteref\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -155,7 +163,8 @@
     "div_style",
     "table_style",
     "div_role",
-    "body"
+    "body",
+    "html_lang"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -191,7 +200,10 @@
     "span_aria-required",
     "td_role=\"button\"",
     "li_role=\"presentation\"",
-    "div_aria-checked"
+    "div_aria-checked",
+    "p_role=\"note\"",
+    "div_role=\"header\"",
+    "div_aria-disabled_aria-expanded"
   ],
   "select-name": [
     "select_name",
@@ -203,7 +215,8 @@
     "select_aria-describedby_name",
     "select_formcontrolname",
     "select_name_style",
-    "select_formcontrolname_name"
+    "select_formcontrolname_name",
+    "select_aria-label"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -215,7 +228,8 @@
     "span_aria-expanded_aria-hidden",
     "div_aria-expanded_aria-hidden",
     "div_aria-hidden_tabindex",
-    "span_aria-hidden"
+    "span_aria-hidden",
+    "article_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -243,7 +257,8 @@
     "div_role=\"widget\"",
     "input_role=\"email\"",
     "div_role=\"section\"",
-    "h1_role=\"header\""
+    "h1_role=\"header\"",
+    "div_role=\"header\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
