@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/4/2023, 4:13:38 AM",
+  "lastUpdated": "12/5/2023, 4:13:30 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -43,7 +43,8 @@
     "div_role=\"table\"",
     "div_role=\"menu\"",
     "tr_role=\"row\"",
-    "ng-select_role=\"listbox\""
+    "ng-select_role=\"listbox\"",
+    "tp-yt-paper-tabs_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
@@ -92,7 +93,8 @@
     "main_tabindex",
     "nav_aria-label_role",
     "section_aria-label_aria-roledescription",
-    "section_role"
+    "section_role",
+    "header_h1"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -142,7 +144,8 @@
     "label_role=\"option\"",
     "sup_role=\"doc-noteref\"",
     "button_role=\"none presentation\"",
-    "main_role=\"presentation\""
+    "main_role=\"presentation\"",
+    "li_role=\"group\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -152,7 +155,8 @@
     "a_href_role_tabindex",
     "figure_aria-label_role_style",
     "svg_aria-label_role_tabindex",
-    "li_aria-controls_aria-label_role"
+    "li_aria-controls_aria-label_role",
+    "ul_aria-label_role"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -213,7 +217,8 @@
     "p_role=\"note\"",
     "div_role=\"header\"",
     "div_aria-disabled_aria-expanded",
-    "md-radio-button_role=\"radio\""
+    "md-radio-button_role=\"radio\"",
+    "div_aria-expanded_h4_strong_a_href"
   ],
   "select-name": [
     "select_name",
@@ -270,7 +275,8 @@
     "input_role=\"email\"",
     "div_role=\"section\"",
     "h1_role=\"header\"",
-    "div_role=\"header\""
+    "div_role=\"header\"",
+    "div_role=\"aside\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
