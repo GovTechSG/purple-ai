@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/5/2023, 4:13:30 AM",
+  "lastUpdated": "12/6/2023, 4:13:49 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -94,7 +94,8 @@
     "nav_aria-label_role",
     "section_aria-label_aria-roledescription",
     "section_role",
-    "header_h1"
+    "header_h1",
+    "footer_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -294,5 +295,9 @@
     "input_aria-invalid_aria-label_aria-required_formcontrolname_type",
     "input_aria-expanded_role_type"
   ],
-  "svg-img-alt": ["svg_role_g_path", "svg_role"]
+  "svg-img-alt": [
+    "svg_role_g_path",
+    "svg_role",
+    "svg_aria-labelledby_role_xlink"
+  ]
 }
