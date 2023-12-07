@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/6/2023, 4:13:49 AM",
+  "lastUpdated": "12/7/2023, 4:13:40 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -28,7 +28,8 @@
     "li_role=\"menuitem\"",
     "sl-tree-item_role=\"treeitem\"",
     "label_role=\"option\"",
-    "a_role=\"menuitem\""
+    "a_role=\"menuitem\"",
+    "div_role=\"rowgroup\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -44,7 +45,8 @@
     "div_role=\"menu\"",
     "tr_role=\"row\"",
     "ng-select_role=\"listbox\"",
-    "tp-yt-paper-tabs_role=\"tablist\""
+    "tp-yt-paper-tabs_role=\"tablist\"",
+    "div_role=\"rowgroup\""
   ],
   "landmark-unique": [
     "nav",
