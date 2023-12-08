@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/7/2023, 4:13:40 AM",
+  "lastUpdated": "12/8/2023, 4:13:52 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -148,7 +148,10 @@
     "sup_role=\"doc-noteref\"",
     "button_role=\"none presentation\"",
     "main_role=\"presentation\"",
-    "li_role=\"group\""
+    "li_role=\"group\"",
+    "h2_role=\"textbox\"",
+    "form_role=\"application\"",
+    "fieldset_role=\"tabpanel\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
