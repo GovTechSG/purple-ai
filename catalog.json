@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/20/2023, 4:11:10 AM",
+  "lastUpdated": "12/21/2023, 4:13:46 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -98,7 +98,8 @@
     "section_aria-label_aria-roledescription",
     "section_role",
     "header_h1",
-    "footer_style"
+    "footer_style",
+    "section_aria-label_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -152,7 +153,8 @@
     "li_role=\"group\"",
     "h2_role=\"textbox\"",
     "form_role=\"application\"",
-    "fieldset_role=\"tabpanel\""
+    "fieldset_role=\"tabpanel\"",
+    "picture_role=\"img\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -226,7 +228,8 @@
     "div_aria-disabled_aria-expanded",
     "md-radio-button_role=\"radio\"",
     "div_aria-expanded_h4_strong_a_href",
-    "button_role=\"button\""
+    "button_role=\"button\"",
+    "li_aria-selected"
   ],
   "select-name": [
     "select_name",
@@ -253,7 +256,8 @@
     "div_aria-expanded_aria-hidden",
     "div_aria-hidden_tabindex",
     "span_aria-hidden",
-    "article_aria-hidden"
+    "article_aria-hidden",
+    "div_aria-hidden_aria-label_aria-labelledby"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -295,7 +299,8 @@
     "div_role=\"slider\"",
     "input_role=\"radio\"",
     "input_role=\"combobox\"",
-    "div_role=\"scrollbar\""
+    "div_role=\"scrollbar\"",
+    "span_role=\"heading\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
