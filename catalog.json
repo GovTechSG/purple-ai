@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/21/2023, 4:13:46 AM",
+  "lastUpdated": "12/22/2023, 4:13:34 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -47,7 +47,8 @@
     "tr_role=\"row\"",
     "ng-select_role=\"listbox\"",
     "tp-yt-paper-tabs_role=\"tablist\"",
-    "div_role=\"rowgroup\""
+    "div_role=\"rowgroup\"",
+    "header_role=\"rowgroup\""
   ],
   "landmark-unique": [
     "nav",
@@ -154,7 +155,8 @@
     "h2_role=\"textbox\"",
     "form_role=\"application\"",
     "fieldset_role=\"tabpanel\"",
-    "picture_role=\"img\""
+    "picture_role=\"img\"",
+    "header_role=\"rowgroup\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
