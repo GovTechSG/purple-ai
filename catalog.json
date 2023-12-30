@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/29/2023, 4:13:27 AM",
+  "lastUpdated": "12/30/2023, 4:13:38 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -233,7 +233,8 @@
     "div_aria-expanded_h4_strong_a_href",
     "button_role=\"button\"",
     "li_aria-selected",
-    "div_role=\"document\""
+    "div_role=\"document\"",
+    "a_aria-expanded_value-filter"
   ],
   "select-name": [
     "select_name",
