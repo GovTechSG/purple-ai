@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/9/2024, 4:13:47 AM",
+  "lastUpdated": "1/10/2024, 4:14:16 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -48,7 +48,8 @@
     "ng-select_role=\"listbox\"",
     "tp-yt-paper-tabs_role=\"tablist\"",
     "div_role=\"rowgroup\"",
-    "header_role=\"rowgroup\""
+    "header_role=\"rowgroup\"",
+    "table_role=\"grid\""
   ],
   "landmark-unique": [
     "nav",
@@ -101,7 +102,11 @@
     "header_h1",
     "footer_style",
     "section_aria-label_role",
-    "nav_ul"
+    "nav_ul",
+    "aside_style",
+    "aside_p",
+    "aside_p_strong",
+    "aside_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -157,7 +162,9 @@
     "form_role=\"application\"",
     "fieldset_role=\"tabpanel\"",
     "picture_role=\"img\"",
-    "header_role=\"rowgroup\""
+    "header_role=\"rowgroup\"",
+    "a_role=\"application\"",
+    "fieldset_role=\"search\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -234,7 +241,11 @@
     "button_role=\"button\"",
     "li_aria-selected",
     "div_role=\"document\"",
-    "a_aria-expanded_value-filter"
+    "a_aria-expanded_value-filter",
+    "li_aria-expanded_aria-haspopup",
+    "tr_aria-colspan",
+    "div_aria-label_aria-multiselectable",
+    "nav_role=\"navigation\""
   ],
   "select-name": [
     "select_name",
@@ -294,7 +305,8 @@
     "div_role=\"section\"",
     "h1_role=\"header\"",
     "div_role=\"header\"",
-    "div_role=\"aside\""
+    "div_role=\"aside\"",
+    "a_role=\"modal\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -306,7 +318,8 @@
     "input_role=\"radio\"",
     "input_role=\"combobox\"",
     "div_role=\"scrollbar\"",
-    "span_role=\"heading\""
+    "span_role=\"heading\"",
+    "button_role=\"heading\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
