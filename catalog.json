@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/11/2024, 4:14:00 AM",
+  "lastUpdated": "1/12/2024, 4:14:28 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -18,7 +18,8 @@
     "input_formcontrolname_type",
     "input_name",
     "input_aria-invalid_aria-required_formcontrolname_name",
-    "input_value"
+    "input_value",
+    "input_tabindex_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -298,7 +299,9 @@
     "a_aria-controls_aria-disabled_aria-role_tabindex",
     "h3_aria-exapanded_tabindex",
     "div_aria-labeledby_role",
-    "label_aria-lable"
+    "label_aria-lable",
+    "nav_aria-labelledby_aria-role",
+    "div_aria-labeledby"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -314,7 +317,8 @@
     "h1_role=\"header\"",
     "div_role=\"header\"",
     "div_role=\"aside\"",
-    "a_role=\"modal\""
+    "a_role=\"modal\"",
+    "img_role=\"'img'\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -338,7 +342,8 @@
     "svg_role_g_path",
     "svg_role",
     "svg_aria-labelledby_role_xlink",
-    "svg_role_use_href"
+    "svg_role_use_href",
+    "svg_aria-label_role_style"
   ],
   "form-field-multiple-labels": ["input_type"]
 }
