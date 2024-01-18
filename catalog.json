@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/17/2024, 4:14:14 AM",
+  "lastUpdated": "1/18/2024, 4:13:46 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -109,7 +109,8 @@
     "aside_p",
     "aside_p_strong",
     "aside_role",
-    "aside_time"
+    "aside_time",
+    "aside_span_p_b_span_br_span"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -169,7 +170,8 @@
     "a_role=\"application\"",
     "fieldset_role=\"search\"",
     "input_role=\"tab\"",
-    "button_role=\"menu\""
+    "button_role=\"menu\"",
+    "a_role=\"listitem\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
