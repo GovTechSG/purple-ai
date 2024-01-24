@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/23/2024, 4:14:04 AM",
+  "lastUpdated": "1/24/2024, 4:14:19 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -258,7 +258,8 @@
     "div_aria-label_aria-multiselectable",
     "nav_role=\"navigation\"",
     "iframe_role=\"presentation\"",
-    "div_aria-expanded_aria-hidden"
+    "div_aria-expanded_aria-hidden",
+    "span_aria-expanded_span_span"
   ],
   "select-name": [
     "select_name",
