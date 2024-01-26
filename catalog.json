@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/25/2024, 4:14:21 AM",
+  "lastUpdated": "1/26/2024, 4:13:49 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -31,7 +31,8 @@
     "sl-tree-item_role=\"treeitem\"",
     "label_role=\"option\"",
     "a_role=\"menuitem\"",
-    "div_role=\"rowgroup\""
+    "div_role=\"rowgroup\"",
+    "div_role=\"row\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -51,7 +52,8 @@
     "div_role=\"rowgroup\"",
     "header_role=\"rowgroup\"",
     "table_role=\"grid\"",
-    "button_role=\"menu\""
+    "button_role=\"menu\"",
+    "div_role=\"row\""
   ],
   "landmark-unique": [
     "nav",
@@ -111,7 +113,9 @@
     "aside_role",
     "aside_time",
     "aside_span_p_b_span_br_span",
-    "nav_role_style"
+    "nav_role_style",
+    "navigation-menu_role",
+    "nav_style_tabindex"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -174,7 +178,8 @@
     "button_role=\"menu\"",
     "a_role=\"listitem\"",
     "select_role=\"listbox\"",
-    "ol_role=\"navigation\""
+    "ol_role=\"navigation\"",
+    "body_role=\"presentation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -308,7 +313,8 @@
     "div_aria-labeledby_role",
     "label_aria-lable",
     "nav_aria-labelledby_aria-role",
-    "div_aria-labeledby"
+    "div_aria-labeledby",
+    "span_aria-labelledby_aria-role"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
