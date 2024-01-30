@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "1/29/2024, 4:13:08 AM",
+  "lastUpdated": "1/30/2024, 4:12:43 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -33,7 +33,8 @@
     "a_role=\"menuitem\"",
     "div_role=\"rowgroup\"",
     "div_role=\"row\"",
-    "div_role=\"menuitem\""
+    "div_role=\"menuitem\"",
+    "div_role=\"columnheader\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -116,7 +117,9 @@
     "aside_span_p_b_span_br_span",
     "nav_role_style",
     "navigation-menu_role",
-    "nav_style_tabindex"
+    "nav_style_tabindex",
+    "form_aria-label_role",
+    "nav_aria-label_button_aria-label_style_type_button_aria-label_style_type"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -216,7 +219,8 @@
     "html_lang",
     "p_br_br",
     "div_style_div_style",
-    "div_role_tabindex"
+    "div_role_tabindex",
+    "section"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -268,7 +272,8 @@
     "nav_role=\"navigation\"",
     "iframe_role=\"presentation\"",
     "div_aria-expanded_aria-hidden",
-    "span_aria-expanded_span_span"
+    "span_aria-expanded_span_span",
+    "div_role=\"textbox\""
   ],
   "select-name": [
     "select_name",
@@ -298,7 +303,8 @@
     "article_aria-hidden",
     "div_aria-hidden_aria-label_aria-labelledby",
     "span_aria-hidden_style",
-    "aside_aria-hidden"
+    "aside_aria-hidden",
+    "form_aria-hidden_tabindex"
   ],
   "aria-input-field-name": [
     "div_role_style",
