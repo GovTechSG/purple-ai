@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/1/2024, 4:15:01 AM",
+  "lastUpdated": "2/2/2024, 4:13:34 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -352,7 +352,8 @@
     "footer_role=\"footer\"",
     "div_role=\"nav\"",
     "div_role=\"wrapper\"",
-    "input_role=\"input\""
+    "input_role=\"input\"",
+    "h1_role=\"title\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
