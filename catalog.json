@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/5/2024, 4:14:08 AM",
+  "lastUpdated": "2/6/2024, 4:12:52 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -383,5 +383,5 @@
     "svg_role_use_href",
     "svg_aria-label_role_style"
   ],
-  "form-field-multiple-labels": ["input_type"]
+  "form-field-multiple-labels": ["input_type", "input_name_style_type"]
 }
