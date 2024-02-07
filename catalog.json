@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/6/2024, 4:12:52 AM",
+  "lastUpdated": "2/7/2024, 4:13:16 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -122,7 +122,8 @@
     "navigation-menu_role",
     "nav_style_tabindex",
     "form_aria-label_role",
-    "nav_aria-label_button_aria-label_style_type_button_aria-label_style_type"
+    "nav_aria-label_button_aria-label_style_type_button_aria-label_style_type",
+    "aside_section_div"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
