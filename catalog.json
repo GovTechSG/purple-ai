@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/8/2024, 4:13:21 AM",
+  "lastUpdated": "2/9/2024, 4:13:04 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -58,7 +58,8 @@
     "table_role=\"grid\"",
     "button_role=\"menu\"",
     "div_role=\"row\"",
-    "div_role=\"menubar\""
+    "div_role=\"menubar\"",
+    "ul_role=\"listbox\""
   ],
   "landmark-unique": [
     "nav",
