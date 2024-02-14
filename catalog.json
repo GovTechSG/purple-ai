@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/13/2024, 4:12:48 AM",
+  "lastUpdated": "2/14/2024, 4:13:28 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -20,7 +20,8 @@
     "input_aria-invalid_aria-required_formcontrolname_name",
     "input_value",
     "input_tabindex_type",
-    "textarea_name_value"
+    "textarea_name_value",
+    "textarea_aria-required_name"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -36,7 +37,8 @@
     "div_role=\"row\"",
     "div_role=\"menuitem\"",
     "div_role=\"columnheader\"",
-    "nx-footer-link_role=\"listitem\""
+    "nx-footer-link_role=\"listitem\"",
+    "td_role=\"rowheader\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -59,7 +61,8 @@
     "button_role=\"menu\"",
     "div_role=\"row\"",
     "div_role=\"menubar\"",
-    "ul_role=\"listbox\""
+    "ul_role=\"listbox\"",
+    "ol_role=\"list\""
   ],
   "landmark-unique": [
     "nav",
@@ -124,7 +127,8 @@
     "nav_style_tabindex",
     "form_aria-label_role",
     "nav_aria-label_button_aria-label_style_type_button_aria-label_style_type",
-    "aside_section_div"
+    "aside_section_div",
+    "form_aria-owns_role_title"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
