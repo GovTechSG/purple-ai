@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/16/2024, 4:12:24 AM",
+  "lastUpdated": "2/17/2024, 4:14:39 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -38,7 +38,8 @@
     "div_role=\"menuitem\"",
     "div_role=\"columnheader\"",
     "nx-footer-link_role=\"listitem\"",
-    "td_role=\"rowheader\""
+    "td_role=\"rowheader\"",
+    "div_role=\"option\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -237,7 +238,8 @@
     "p_br_br",
     "div_style_div_style",
     "div_role_tabindex",
-    "section"
+    "section",
+    "div_aria-label_role"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -306,7 +308,8 @@
     "select_name_style",
     "select_formcontrolname_name",
     "select_aria-label",
-    "select_aria-invalid_style"
+    "select_aria-invalid_style",
+    "select_name_title"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -324,7 +327,8 @@
     "span_aria-hidden_style",
     "aside_aria-hidden",
     "form_aria-hidden_tabindex",
-    "wog-sentiments_aria-hidden"
+    "wog-sentiments_aria-hidden",
+    "input_aria-hidden_aria-label_style"
   ],
   "aria-input-field-name": [
     "div_role_style",
