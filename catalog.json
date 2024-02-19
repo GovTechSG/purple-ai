@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/18/2024, 4:12:16 AM",
+  "lastUpdated": "2/19/2024, 4:13:04 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -202,7 +202,8 @@
     "section_role=\"form\"",
     "li_role=\"region\"",
     "img_role=\"img\"",
-    "picture_role=\"presentation\""
+    "picture_role=\"presentation\"",
+    "input_role=\"presentation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
