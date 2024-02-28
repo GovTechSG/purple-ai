@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/27/2024, 4:13:35 AM",
+  "lastUpdated": "2/28/2024, 4:13:21 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -21,7 +21,8 @@
     "input_value",
     "input_tabindex_type",
     "textarea_name_value",
-    "textarea_aria-required_name"
+    "textarea_aria-required_name",
+    "textarea_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
