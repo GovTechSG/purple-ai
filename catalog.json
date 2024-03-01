@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2/29/2024, 4:13:03 AM",
+  "lastUpdated": "3/1/2024, 4:14:10 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -338,7 +338,8 @@
     "aside_aria-hidden",
     "form_aria-hidden_tabindex",
     "wog-sentiments_aria-hidden",
-    "input_aria-hidden_aria-label_style"
+    "input_aria-hidden_aria-label_style",
+    "span_aria-hidden_tabindex"
   ],
   "aria-input-field-name": [
     "div_role_style",
