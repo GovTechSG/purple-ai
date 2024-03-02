@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/1/2024, 4:14:10 AM",
+  "lastUpdated": "3/2/2024, 4:12:49 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -66,7 +66,8 @@
     "div_role=\"menubar\"",
     "ul_role=\"listbox\"",
     "ol_role=\"list\"",
-    "div_role=\"feed\""
+    "div_role=\"feed\"",
+    "ul_role=\"list\""
   ],
   "landmark-unique": [
     "nav",
@@ -304,7 +305,10 @@
     "span_aria-expanded_span_span",
     "div_role=\"textbox\"",
     "li_role=\"listitem\"",
-    "a_role=\"tablist\""
+    "a_role=\"tablist\"",
+    "a_aria-expanded_i",
+    "ion-modal_aria-modal_style_tabindex",
+    "div_aria-invalid_aria-required"
   ],
   "select-name": [
     "select_name",
@@ -339,7 +343,9 @@
     "form_aria-hidden_tabindex",
     "wog-sentiments_aria-hidden",
     "input_aria-hidden_aria-label_style",
-    "span_aria-hidden_tabindex"
+    "span_aria-hidden_tabindex",
+    "app-root_aria-hidden",
+    "ion-router-outlet_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
