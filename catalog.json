@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/4/2024, 4:40:27 AM",
+  "lastUpdated": "3/5/2024, 4:13:50 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -22,7 +22,8 @@
     "input_tabindex_type",
     "textarea_name_value",
     "textarea_aria-required_name",
-    "textarea_type"
+    "textarea_type",
+    "textarea_aria-hidden_name"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -67,7 +68,8 @@
     "ul_role=\"listbox\"",
     "ol_role=\"list\"",
     "div_role=\"feed\"",
-    "ul_role=\"list\""
+    "ul_role=\"list\"",
+    "nav_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
@@ -135,7 +137,8 @@
     "aside_section_div",
     "form_aria-owns_role_title",
     "ui-view_aria-live_role_tabindex",
-    "aside_h4"
+    "aside_h4",
+    "footer_h1"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -212,7 +215,9 @@
     "input_role=\"presentation\"",
     "fieldset_role=\"document\"",
     "select_role=\"presentation\"",
-    "a_role=\"slider\""
+    "a_role=\"slider\"",
+    "a_role=\"tabpanel\"",
+    "section_role=\"option\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -224,7 +229,8 @@
     "svg_aria-label_role_tabindex",
     "li_aria-controls_aria-label_role",
     "ul_aria-label_role",
-    "h3_aria-label_role"
+    "h3_aria-label_role",
+    "section_aria-labelledby_role"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -308,7 +314,9 @@
     "a_role=\"tablist\"",
     "a_aria-expanded_i",
     "ion-modal_aria-modal_style_tabindex",
-    "div_aria-invalid_aria-required"
+    "div_aria-invalid_aria-required",
+    "div_role=\"gridcell\"",
+    "p_aria-required_name"
   ],
   "select-name": [
     "select_name",
@@ -323,7 +331,9 @@
     "select_formcontrolname_name",
     "select_aria-label",
     "select_aria-invalid_style",
-    "select_name_title"
+    "select_name_title",
+    "select_name_type",
+    "select_tabindex"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -345,7 +355,8 @@
     "input_aria-hidden_aria-label_style",
     "span_aria-hidden_tabindex",
     "app-root_aria-hidden",
-    "ion-router-outlet_aria-hidden"
+    "ion-router-outlet_aria-hidden",
+    "section_aria-hidden_style_tabindex"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -389,7 +400,9 @@
     "input_role=\"input\"",
     "h1_role=\"title\"",
     "header_role=\"header\"",
-    "div_role=\"logo\""
+    "div_role=\"logo\"",
+    "header_role=\"site-header\"",
+    "footer_role=\"site-footer\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
