@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/6/2024, 4:13:01 AM",
+  "lastUpdated": "3/7/2024, 4:13:22 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -43,7 +43,9 @@
     "td_role=\"rowheader\"",
     "div_role=\"option\"",
     "button_role=\"menuitem\"",
-    "a_role=\"listitem\""
+    "a_role=\"listitem\"",
+    "rect_role=\"tab\"",
+    "label_role=\"tab\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -139,7 +141,9 @@
     "form_aria-owns_role_title",
     "ui-view_aria-live_role_tabindex",
     "aside_h4",
-    "footer_h1"
+    "footer_h1",
+    "header_styles",
+    "footer_div_div_div_div"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -220,7 +224,13 @@
     "a_role=\"tabpanel\"",
     "section_role=\"option\"",
     "a_role=\"search\"",
-    "option_role=\"none\""
+    "option_role=\"none\"",
+    "ul_role=\"checkbox\"",
+    "li_role=\"checkbox\"",
+    "h3_role=\"img\"",
+    "article_role=\"complementary\"",
+    "h5_role=\"link\"",
+    "h5_role=\"button\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -322,7 +332,8 @@
     "p_aria-required_name",
     "div_aria-pressed_input_aria-label_name_type_value",
     "label_aria-controls_aria-expanded_for_tabindex",
-    "svg_aria-disabled_aria-readonly"
+    "svg_aria-disabled_aria-readonly",
+    "a_aria-expanded_tabindex"
   ],
   "select-name": [
     "select_name",
@@ -363,7 +374,9 @@
     "app-root_aria-hidden",
     "ion-router-outlet_aria-hidden",
     "section_aria-hidden_style_tabindex",
-    "header_aria-hidden_tabindex"
+    "header_aria-hidden_tabindex",
+    "ul_aria-hidden",
+    "button_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
