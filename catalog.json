@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/11/2024, 4:14:12 AM",
+  "lastUpdated": "3/12/2024, 4:15:16 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -443,7 +443,9 @@
     "button_role=\"heading\"",
     "div_role=\"heading\"",
     "ul_role=\"checkbox\"",
-    "li_role=\"checkbox\""
+    "li_role=\"checkbox\"",
+    "p_role=\"heading\"",
+    "strong_role=\"heading\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
