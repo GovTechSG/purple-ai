@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/12/2024, 4:15:16 AM",
+  "lastUpdated": "3/13/2024, 4:12:38 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -273,7 +273,8 @@
     "div_role_tabindex",
     "section",
     "div_aria-label_role",
-    "tbody_style"
+    "tbody_style",
+    "ul"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
