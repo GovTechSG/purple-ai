@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/19/2024, 4:13:22 AM",
+  "lastUpdated": "3/20/2024, 4:14:31 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -282,7 +282,8 @@
     "section",
     "div_aria-label_role",
     "tbody_style",
-    "ul"
+    "ul",
+    "div_aria-live"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -392,7 +393,11 @@
     "section_aria-hidden_style_tabindex",
     "header_aria-hidden_tabindex",
     "ul_aria-hidden",
-    "button_aria-hidden"
+    "button_aria-hidden",
+    "app_aria-hidden",
+    "sam-frontend-content-root_aria-hidden",
+    "app-frontend-search-root_aria-hidden",
+    "sam-frontend-admin-root_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
