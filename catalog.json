@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/23/2024, 4:14:18 AM",
+  "lastUpdated": "3/24/2024, 4:14:28 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -148,7 +148,8 @@
     "aside_h4",
     "footer_h1",
     "header_styles",
-    "footer_div_div_div_div"
+    "footer_div_div_div_div",
+    "main_role_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -242,7 +243,9 @@
     "article_role=\"listitem\"",
     "textarea_role=\"searchbox\"",
     "aside_role=\"dialog\"",
-    "li_role=\"tablist\""
+    "li_role=\"tablist\"",
+    "article_role=\"tabpanel\"",
+    "iframe_role=\"dialog\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -255,7 +258,9 @@
     "li_aria-controls_aria-label_role",
     "ul_aria-label_role",
     "h3_aria-label_role",
-    "section_aria-labelledby_role"
+    "section_aria-labelledby_role",
+    "li_aria-hidden_role_style",
+    "input_name_role_tabindex_type_value"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -417,7 +422,8 @@
     "label_aria-lable",
     "nav_aria-labelledby_aria-role",
     "div_aria-labeledby",
-    "span_aria-labelledby_aria-role"
+    "span_aria-labelledby_aria-role",
+    "svg_role_y"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -444,7 +450,9 @@
     "div_role=\"logo\"",
     "header_role=\"site-header\"",
     "footer_role=\"site-footer\"",
-    "div_role=\"polite\""
+    "div_role=\"polite\"",
+    "div_role=\"bar\"",
+    "div_role=\"spinner\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -482,6 +490,8 @@
     "input_name_style_type",
     "select_name",
     "textarea_aria-required_name",
-    "input_type_value"
+    "input_type_value",
+    "textarea_style",
+    "input_name"
   ]
 }
