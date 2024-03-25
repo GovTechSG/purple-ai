@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/24/2024, 4:14:28 AM",
+  "lastUpdated": "3/25/2024, 4:14:39 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -26,7 +26,10 @@
     "textarea_aria-hidden_name",
     "input_aria-describedby_aria-required_type",
     "input_name_value",
-    "input_aria-describedby_value"
+    "input_aria-describedby_value",
+    "input_aria-labelledby_type",
+    "input_tabindex",
+    "input_onclick_value"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -48,7 +51,9 @@
     "button_role=\"menuitem\"",
     "a_role=\"listitem\"",
     "rect_role=\"tab\"",
-    "label_role=\"tab\""
+    "label_role=\"tab\"",
+    "li_role=\"treeitem\"",
+    "div_role=\"gridcell\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -77,7 +82,9 @@
     "ul_role=\"list\"",
     "nav_role=\"tablist\"",
     "dl_role=\"tablist\"",
-    "li_role=\"tablist\""
+    "li_role=\"tablist\"",
+    "div_role=\"tree\"",
+    "tbody_role=\"rowgroup\""
   ],
   "landmark-unique": [
     "nav",
@@ -149,7 +156,8 @@
     "footer_h1",
     "header_styles",
     "footer_div_div_div_div",
-    "main_role_style"
+    "main_role_style",
+    "ul_aria-live_role_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -245,7 +253,9 @@
     "aside_role=\"dialog\"",
     "li_role=\"tablist\"",
     "article_role=\"tabpanel\"",
-    "iframe_role=\"dialog\""
+    "iframe_role=\"dialog\"",
+    "progress_role=\"presentation\"",
+    "h4_role=\"button\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -288,7 +298,9 @@
     "div_aria-label_role",
     "tbody_style",
     "ul",
-    "div_aria-live"
+    "div_aria-live",
+    "table_thead_tr_th_th_style_th_style_tbody_tr_td_td_style_td_style",
+    "nav"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -355,7 +367,8 @@
     "a_aria-expanded_tabindex",
     "dl_aria-multiselectable",
     "form_aria-expanded_style",
-    "hr_role=\"presentation\""
+    "hr_role=\"presentation\"",
+    "div_aria-required"
   ],
   "select-name": [
     "select_name",
@@ -423,7 +436,8 @@
     "nav_aria-labelledby_aria-role",
     "div_aria-labeledby",
     "span_aria-labelledby_aria-role",
-    "svg_role_y"
+    "svg_role_y",
+    "div_aria-lable_tabindex"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -452,7 +466,9 @@
     "footer_role=\"site-footer\"",
     "div_role=\"polite\"",
     "div_role=\"bar\"",
-    "div_role=\"spinner\""
+    "div_role=\"spinner\"",
+    "section_role=\"filters\"",
+    "section_role=\"Past Event Video\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
