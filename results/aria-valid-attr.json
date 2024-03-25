@@ -6,5 +6,6 @@
   "nav_aria-labelledby_aria-role": "The issue with the code snippet is that `aria-role` is an invalid ARIA attribute. The correct ARIA attribute is `role`. The corrected code snippet should be: <`nav` `aria-labelledby`=\"...\" `role`=\"menu\">.",
   "div_aria-labeledby": "The issue with the code snippet is that the attribute \"aria-labeledby\" is misspelled. The correct attribute name is \"aria-labelledby\". The corrected version of the code snippet is:\n\n<div aria-labelledby=\"svc_ActionsMenu_0\">",
   "span_aria-labelledby_aria-role": "The issue with this code snippet is that \"aria-role\" is not a valid ARIA attribute. The correct version of the code snippet should be: <`span` `aria-labelledby`=\"...\" `role`=\"img\"></span>",
-  "svg_role_y": "The issue with the code snippet is that the `y` attribute is not a valid ARIA attribute. A valid ARIA attribute should start with `aria-`. The correct version of the code snippet should be:\n\n<svg role=\"img\" aria-label=\"flightSG\">"
+  "svg_role_y": "The issue with the code snippet is that the `y` attribute is not a valid ARIA attribute. A valid ARIA attribute should start with `aria-`. The correct version of the code snippet should be:\n\n<svg role=\"img\" aria-label=\"flightSG\">",
+  "div_aria-lable_tabindex": "The issue with the code snippet is that the attribute `aria-lable` is not a valid ARIA attribute. The correct attribute name should be `aria-label`. \n\nCorrected code snippet: `<div aria-label=\"0/500\" tabindex=\"0\"></div>`"
 }
