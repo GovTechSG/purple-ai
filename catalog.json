@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/25/2024, 4:14:39 AM",
+  "lastUpdated": "3/26/2024, 4:12:59 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -84,7 +84,8 @@
     "dl_role=\"tablist\"",
     "li_role=\"tablist\"",
     "div_role=\"tree\"",
-    "tbody_role=\"rowgroup\""
+    "tbody_role=\"rowgroup\"",
+    "ngb-accordion_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
