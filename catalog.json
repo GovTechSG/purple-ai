@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/31/2024, 4:14:08 AM",
+  "lastUpdated": "4/1/2024, 4:13:37 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -29,7 +29,9 @@
     "input_aria-describedby_value",
     "input_aria-labelledby_type",
     "input_tabindex",
-    "input_onclick_value"
+    "input_onclick_value",
+    "textarea_formcontrolname_style",
+    "textarea_formcontrolname"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -258,7 +260,9 @@
     "progress_role=\"presentation\"",
     "h4_role=\"button\"",
     "img_role=\"group\"",
-    "a_role=\"group\""
+    "a_role=\"group\"",
+    "ul_role=\"dialog\"",
+    "ul_role=\"application\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -392,7 +396,8 @@
     "select_aria-invalid_style",
     "select_name_title",
     "select_name_type",
-    "select_tabindex"
+    "select_tabindex",
+    "select_onclick"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -516,6 +521,7 @@
     "textarea_aria-required_name",
     "input_type_value",
     "textarea_style",
-    "input_name"
+    "input_name",
+    "textarea_name"
   ]
 }
