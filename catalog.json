@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/3/2024, 4:14:02 AM",
+  "lastUpdated": "4/5/2024, 2:23:59 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -31,7 +31,9 @@
     "input_tabindex",
     "input_onclick_value",
     "textarea_formcontrolname_style",
-    "textarea_formcontrolname"
+    "textarea_formcontrolname",
+    "input_aria-required",
+    "input_class_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -160,7 +162,9 @@
     "header_styles",
     "footer_div_div_div_div",
     "main_role_style",
-    "ul_aria-live_role_style"
+    "ul_aria-live_role_style",
+    "nav_aria-labelledby_tabindex",
+    "nav_slot_name"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -382,7 +386,8 @@
     "div_aria-required",
     "md-input-container_aria-invalid_aria-readonly",
     "a_aria-selected",
-    "input_role=\"textbox\""
+    "input_role=\"textbox\"",
+    "div_aria-expanded_div_div_h2_br"
   ],
   "select-name": [
     "select_name",
@@ -400,7 +405,8 @@
     "select_name_title",
     "select_name_type",
     "select_tabindex",
-    "select_onclick"
+    "select_onclick",
+    "select_language_name"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -453,7 +459,11 @@
     "span_aria-labelledby_aria-role",
     "svg_role_y",
     "div_aria-lable_tabindex",
-    "input_aria-role_type_value"
+    "input_aria-role_type_value",
+    "ul_aria-labeledby",
+    "a_aria-role_href_onclick",
+    "optgroup_aria-explore",
+    "div"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -485,7 +495,8 @@
     "div_role=\"spinner\"",
     "section_role=\"filters\"",
     "section_role=\"Past Event Video\"",
-    "p_role=\"input\""
+    "p_role=\"input\"",
+    "div_role=\"presentaton\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -504,7 +515,8 @@
     "li_role=\"checkbox\"",
     "p_role=\"heading\"",
     "strong_role=\"heading\"",
-    "li_role=\"radio\""
+    "li_role=\"radio\"",
+    "button_role=\"checkbox\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
@@ -527,6 +539,7 @@
     "input_type_value",
     "textarea_style",
     "input_name",
-    "textarea_name"
+    "textarea_name",
+    "input"
   ]
 }
