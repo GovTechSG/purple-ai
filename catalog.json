@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/5/2024, 4:15:36 AM",
+  "lastUpdated": "4/6/2024, 4:13:57 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -57,7 +57,8 @@
     "rect_role=\"tab\"",
     "label_role=\"tab\"",
     "li_role=\"treeitem\"",
-    "div_role=\"gridcell\""
+    "div_role=\"gridcell\"",
+    "div_role=\"listitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -387,7 +388,8 @@
     "md-input-container_aria-invalid_aria-readonly",
     "a_aria-selected",
     "input_role=\"textbox\"",
-    "div_aria-expanded_div_div_h2_br"
+    "div_aria-expanded_div_div_h2_br",
+    "span_role=\"\""
   ],
   "select-name": [
     "select_name",
