@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/9/2024, 4:14:40 AM",
+  "lastUpdated": "4/10/2024, 4:12:59 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -270,7 +270,8 @@
     "ul_role=\"dialog\"",
     "ul_role=\"application\"",
     "body_role=\"application\"",
-    "ul_role=\"tabpanel\""
+    "ul_role=\"tabpanel\"",
+    "nav_role=\"region\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -392,7 +393,8 @@
     "div_aria-expanded_div_div_h2_br",
     "span_role=\"\"",
     "li_aria-controls_aria-selected",
-    "p_aria-level_style"
+    "p_aria-level_style",
+    "a_aria-expanded_style"
   ],
   "select-name": [
     "select_name",
