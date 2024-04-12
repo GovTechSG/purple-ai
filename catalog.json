@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/11/2024, 4:12:59 AM",
+  "lastUpdated": "4/12/2024, 4:13:03 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -60,7 +60,8 @@
     "div_role=\"gridcell\"",
     "div_role=\"listitem\"",
     "a_role=\"option\"",
-    "area_role=\"tab\""
+    "area_role=\"tab\"",
+    "g_role=\"menuitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -288,7 +289,8 @@
     "h3_aria-label_role",
     "section_aria-labelledby_role",
     "li_aria-hidden_role_style",
-    "input_name_role_tabindex_type_value"
+    "input_name_role_tabindex_type_value",
+    "svg_aria-labelledby_role"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -526,7 +528,9 @@
     "p_role=\"heading\"",
     "strong_role=\"heading\"",
     "li_role=\"radio\"",
-    "button_role=\"checkbox\""
+    "button_role=\"checkbox\"",
+    "g_role=\"scrollbar\"",
+    "g_role=\"slider\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
