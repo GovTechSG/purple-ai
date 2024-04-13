@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/12/2024, 4:13:03 AM",
+  "lastUpdated": "4/13/2024, 4:12:54 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -554,6 +554,7 @@
     "textarea_style",
     "input_name",
     "textarea_name",
-    "input"
+    "input",
+    "select_name_option_value"
   ]
 }
