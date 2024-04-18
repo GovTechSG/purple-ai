@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/17/2024, 4:14:36 AM",
+  "lastUpdated": "4/18/2024, 4:13:41 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -280,7 +280,8 @@
     "label_role=\"heading\"",
     "li_role=\"link\"",
     "aside_role=\"contentinfo\"",
-    "button_role=\"alert\""
+    "button_role=\"alert\"",
+    "img_role=\"graphics-symbol\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -328,7 +329,8 @@
     "table_thead_tr_th_th_style_th_style_tbody_tr_td_td_style_td_style",
     "nav",
     "code",
-    "div_div_div_ol"
+    "div_div_div_ol",
+    "pre_strong"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -407,7 +409,8 @@
     "a_aria-expanded_style",
     "a_aria-controls_aria-selected_title",
     "li_role=\"link\"",
-    "li_role=\"button\""
+    "li_role=\"button\"",
+    "p_aria-level_b"
   ],
   "select-name": [
     "select_name",
@@ -426,7 +429,8 @@
     "select_name_type",
     "select_tabindex",
     "select_onclick",
-    "select_language_name"
+    "select_language_name",
+    "select_aria-disabled"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -554,7 +558,8 @@
     "svg_role",
     "svg_aria-labelledby_role_xlink",
     "svg_role_use_href",
-    "svg_aria-label_role_style"
+    "svg_aria-label_role_style",
+    "svg_ariahidden_role"
   ],
   "form-field-multiple-labels": [
     "input_type",
