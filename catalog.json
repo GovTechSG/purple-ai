@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/19/2024, 4:13:12 AM",
+  "lastUpdated": "4/20/2024, 4:15:14 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -33,7 +33,8 @@
     "textarea_formcontrolname_style",
     "textarea_formcontrolname",
     "input_aria-required",
-    "input_class_type"
+    "input_class_type",
+    "input_aria-label_value"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -172,7 +173,8 @@
     "nav_aria-labelledby_tabindex",
     "nav_slot_name",
     "footer_tabindex",
-    "g_aria-describedby_role"
+    "g_aria-describedby_role",
+    "main_role_tabindex"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -283,7 +285,8 @@
     "li_role=\"link\"",
     "aside_role=\"contentinfo\"",
     "button_role=\"alert\"",
-    "img_role=\"graphics-symbol\""
+    "img_role=\"graphics-symbol\"",
+    "ol_role=\"region\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -553,7 +556,8 @@
     "input_name_style_tabindex_type",
     "input_aria-invalid_aria-label_aria-required_formcontrolname_type",
     "input_aria-expanded_role_type",
-    "input_aria-label_name"
+    "input_aria-label_name",
+    "input_aria-autocomplete_type"
   ],
   "svg-img-alt": [
     "svg_role_g_path",
