@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/20/2024, 4:15:14 AM",
+  "lastUpdated": "4/21/2024, 4:13:15 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -63,7 +63,8 @@
     "a_role=\"option\"",
     "area_role=\"tab\"",
     "g_role=\"menuitem\"",
-    "g_role=\"listitem\""
+    "g_role=\"listitem\"",
+    "summary_role=\"tab\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -96,7 +97,8 @@
     "div_role=\"tree\"",
     "tbody_role=\"rowgroup\"",
     "ngb-accordion_role=\"tablist\"",
-    "select_role=\"listbox\""
+    "select_role=\"listbox\"",
+    "p_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
@@ -286,7 +288,10 @@
     "aside_role=\"contentinfo\"",
     "button_role=\"alert\"",
     "img_role=\"graphics-symbol\"",
-    "ol_role=\"region\""
+    "ol_role=\"region\"",
+    "header_role=\"application\"",
+    "figcaption_role=\"tooltip\"",
+    "label_role=\"checkbox\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -415,7 +420,8 @@
     "a_aria-controls_aria-selected_title",
     "li_role=\"link\"",
     "li_role=\"button\"",
-    "p_aria-level_b"
+    "p_aria-level_b",
+    "p_aria-level_strong"
   ],
   "select-name": [
     "select_name",
@@ -466,7 +472,8 @@
     "sam-frontend-content-root_aria-hidden",
     "app-frontend-search-root_aria-hidden",
     "sam-frontend-admin-root_aria-hidden",
-    "footer_aria-hidden"
+    "footer_aria-hidden",
+    "input_aria-hidden_type"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -493,7 +500,8 @@
     "ul_aria-labeledby",
     "a_aria-role_href_onclick",
     "optgroup_aria-explore",
-    "div"
+    "div",
+    "a_aria-labels_href_title"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -528,7 +536,10 @@
     "p_role=\"input\"",
     "div_role=\"presentaton\"",
     "div_role=\"pageHeader\"",
-    "c-footer_role=\"footer\""
+    "c-footer_role=\"footer\"",
+    "div_role=\"label\"",
+    "div_role=\"tabpaneltitle\"",
+    "details_role=\"tab-panel\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -550,7 +561,8 @@
     "li_role=\"radio\"",
     "button_role=\"checkbox\"",
     "g_role=\"scrollbar\"",
-    "g_role=\"slider\""
+    "g_role=\"slider\"",
+    "li_role=\"heading\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
