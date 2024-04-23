@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/22/2024, 4:13:33 AM",
+  "lastUpdated": "4/23/2024, 4:14:16 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -291,7 +291,8 @@
     "ol_role=\"region\"",
     "header_role=\"application\"",
     "figcaption_role=\"tooltip\"",
-    "label_role=\"checkbox\""
+    "label_role=\"checkbox\"",
+    "ul_role=\"textbox\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -421,7 +422,8 @@
     "li_role=\"link\"",
     "li_role=\"button\"",
     "p_aria-level_b",
-    "p_aria-level_strong"
+    "p_aria-level_strong",
+    "h2_role=\"group\""
   ],
   "select-name": [
     "select_name",
@@ -474,7 +476,8 @@
     "app-frontend-search-root_aria-hidden",
     "sam-frontend-admin-root_aria-hidden",
     "footer_aria-hidden",
-    "input_aria-hidden_type"
+    "input_aria-hidden_type",
+    "header_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -502,7 +505,8 @@
     "a_aria-role_href_onclick",
     "optgroup_aria-explore",
     "div",
-    "a_aria-labels_href_title"
+    "a_aria-labels_href_title",
+    "div_aria-left-arrow_aria-right-arrow"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -580,7 +584,8 @@
     "svg_aria-labelledby_role_xlink",
     "svg_role_use_href",
     "svg_aria-label_role_style",
-    "svg_ariahidden_role"
+    "svg_ariahidden_role",
+    "path_name_role_tabindex"
   ],
   "form-field-multiple-labels": [
     "input_type",
