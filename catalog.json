@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/23/2024, 4:14:16 AM",
+  "lastUpdated": "4/24/2024, 4:13:12 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -176,7 +176,8 @@
     "nav_slot_name",
     "footer_tabindex",
     "g_aria-describedby_role",
-    "main_role_tabindex"
+    "main_role_tabindex",
+    "main_typeof"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -546,7 +547,8 @@
     "div_role=\"tabpaneltitle\"",
     "details_role=\"tab-panel\"",
     "ol_role=\"breadcrumbs\"",
-    "ul_role=\"lsit\""
+    "ul_role=\"lsit\"",
+    "h1_role=\"input\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
