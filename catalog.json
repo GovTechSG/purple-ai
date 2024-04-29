@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/28/2024, 4:12:45 AM",
+  "lastUpdated": "4/29/2024, 4:13:54 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -296,7 +296,8 @@
     "figcaption_role=\"tooltip\"",
     "label_role=\"checkbox\"",
     "ul_role=\"textbox\"",
-    "nav_role=\"banner\""
+    "nav_role=\"banner\"",
+    "li_role=\"heading\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
