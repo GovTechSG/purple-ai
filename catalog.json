@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "4/29/2024, 4:13:54 AM",
+  "lastUpdated": "4/30/2024, 4:14:24 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -297,7 +297,8 @@
     "label_role=\"checkbox\"",
     "ul_role=\"textbox\"",
     "nav_role=\"banner\"",
-    "li_role=\"heading\""
+    "li_role=\"heading\"",
+    "dt_role=\"heading\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -605,6 +606,7 @@
     "input_name",
     "textarea_name",
     "input",
-    "select_name_option_value"
+    "select_name_option_value",
+    "textarea_name_style"
   ]
 }
