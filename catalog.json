@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/1/2024, 4:13:27 AM",
+  "lastUpdated": "5/2/2024, 4:14:45 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -36,7 +36,8 @@
     "input_class_type",
     "input_aria-label_value",
     "textarea_aria-describedby_name",
-    "input_title"
+    "input_title",
+    "input_aria-checked_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -66,7 +67,9 @@
     "area_role=\"tab\"",
     "g_role=\"menuitem\"",
     "g_role=\"listitem\"",
-    "summary_role=\"tab\""
+    "summary_role=\"tab\"",
+    "caem-brand-button_role=\"listitem\"",
+    "dds-structured-list-row_role=\"row\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -100,7 +103,10 @@
     "tbody_role=\"rowgroup\"",
     "ngb-accordion_role=\"tablist\"",
     "select_role=\"listbox\"",
-    "p_role=\"tablist\""
+    "p_role=\"tablist\"",
+    "dds-button-group_role=\"list\"",
+    "dds-tag-group_role=\"list\"",
+    "nav_role=\"menu\""
   ],
   "landmark-unique": [
     "nav",
@@ -298,7 +304,16 @@
     "ul_role=\"textbox\"",
     "nav_role=\"banner\"",
     "li_role=\"heading\"",
-    "dt_role=\"heading\""
+    "dt_role=\"heading\"",
+    "form_role=\"combobox\"",
+    "label_role=\"menuitemradio\"",
+    "li_role=\"search\"",
+    "section_role=\"button\"",
+    "header_role=\"navigation\"",
+    "video_role=\"presentation\"",
+    "button_role=\"slider\"",
+    "a_role=\"dialog\"",
+    "header_role=\"menu\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -314,7 +329,8 @@
     "section_aria-labelledby_role",
     "li_aria-hidden_role_style",
     "input_name_role_tabindex_type_value",
-    "svg_aria-labelledby_role"
+    "svg_aria-labelledby_role",
+    "button_aria-controls_role"
   ],
   "scrollable-region-focusable": [
     "div",
@@ -430,7 +446,12 @@
     "p_aria-level_b",
     "p_aria-level_strong",
     "h2_role=\"group\"",
-    "button_aria-checked_aria-label"
+    "button_aria-checked_aria-label",
+    "dds-masthead-l1-name_aria-selected_title",
+    "hgf-button_aria-expanded_aria-haspopup",
+    "hgf-button_aria-expanded",
+    "a_aria-selected_href",
+    "div_role=\"list\""
   ],
   "select-name": [
     "select_name",
@@ -451,7 +472,8 @@
     "select_onclick",
     "select_language_name",
     "select_aria-disabled",
-    "select_form_name"
+    "select_form_name",
+    "select_aria-labelledby_name_role"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -484,7 +506,8 @@
     "sam-frontend-admin-root_aria-hidden",
     "footer_aria-hidden",
     "input_aria-hidden_type",
-    "header_aria-hidden"
+    "header_aria-hidden",
+    "dds-card-cta-footer_aria-hidden_href"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -513,7 +536,9 @@
     "optgroup_aria-explore",
     "div",
     "a_aria-labels_href_title",
-    "div_aria-left-arrow_aria-right-arrow"
+    "div_aria-left-arrow_aria-right-arrow",
+    "input_aria-activedescendent_aria-activedescendent_aria-autocomplete_enter_escape_focusin_focusout_ms_name_prevent_prevent_type",
+    "article_aria-role_tabindex"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -555,7 +580,12 @@
     "ol_role=\"breadcrumbs\"",
     "ul_role=\"lsit\"",
     "h1_role=\"input\"",
-    "div_role=\"input\""
+    "div_role=\"input\"",
+    "div_role=\"login\"",
+    "li_role=\"signin\"",
+    "li_role=\"item\"",
+    "section_role=\"section\"",
+    "picture_role=\"image\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -607,6 +637,7 @@
     "textarea_name",
     "input",
     "select_name_option_value",
-    "textarea_name_style"
+    "textarea_name_style",
+    "select_aria-labelledby_aria-required_name_style"
   ]
 }
