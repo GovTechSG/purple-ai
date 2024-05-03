@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/2/2024, 4:14:45 AM",
+  "lastUpdated": "5/3/2024, 4:15:07 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -69,7 +69,8 @@
     "g_role=\"listitem\"",
     "summary_role=\"tab\"",
     "caem-brand-button_role=\"listitem\"",
-    "dds-structured-list-row_role=\"row\""
+    "dds-structured-list-row_role=\"row\"",
+    "span_role=\"option\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
