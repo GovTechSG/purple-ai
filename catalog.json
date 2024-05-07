@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/6/2024, 4:14:06 AM",
+  "lastUpdated": "5/7/2024, 4:14:48 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -315,7 +315,8 @@
     "video_role=\"presentation\"",
     "button_role=\"slider\"",
     "a_role=\"dialog\"",
-    "header_role=\"menu\""
+    "header_role=\"menu\"",
+    "a_role=\"none presentation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -540,7 +541,8 @@
     "a_aria-labels_href_title",
     "div_aria-left-arrow_aria-right-arrow",
     "input_aria-activedescendent_aria-activedescendent_aria-autocomplete_enter_escape_focusin_focusout_ms_name_prevent_prevent_type",
-    "article_aria-role_tabindex"
+    "article_aria-role_tabindex",
+    "div_aria-label_aria-role_span_span_span_span"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
