@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/7/2024, 4:14:48 AM",
+  "lastUpdated": "5/8/2024, 4:11:56 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -542,7 +542,8 @@
     "div_aria-left-arrow_aria-right-arrow",
     "input_aria-activedescendent_aria-activedescendent_aria-autocomplete_enter_escape_focusin_focusout_ms_name_prevent_prevent_type",
     "article_aria-role_tabindex",
-    "div_aria-label_aria-role_span_span_span_span"
+    "div_aria-label_aria-role_span_span_span_span",
+    "a_aria-title_href_img_alt_src"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
