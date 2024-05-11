@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/10/2024, 4:13:25 AM",
+  "lastUpdated": "5/11/2024, 4:14:33 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -37,7 +37,8 @@
     "input_aria-label_value",
     "textarea_aria-describedby_name",
     "input_title",
-    "input_aria-checked_type"
+    "input_aria-checked_type",
+    "textarea_style"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -70,7 +71,8 @@
     "summary_role=\"tab\"",
     "caem-brand-button_role=\"listitem\"",
     "dds-structured-list-row_role=\"row\"",
-    "span_role=\"option\""
+    "span_role=\"option\"",
+    "sp-table-row_role=\"row\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -108,7 +110,8 @@
     "dds-button-group_role=\"list\"",
     "dds-tag-group_role=\"list\"",
     "nav_role=\"menu\"",
-    "va-table_role=\"table\""
+    "va-table_role=\"table\"",
+    "sp-table-head_role=\"row\""
   ],
   "landmark-unique": [
     "nav",
@@ -187,7 +190,8 @@
     "footer_tabindex",
     "g_aria-describedby_role",
     "main_role_tabindex",
-    "main_typeof"
+    "main_typeof",
+    "mio-toolbar_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -316,7 +320,10 @@
     "button_role=\"slider\"",
     "a_role=\"dialog\"",
     "header_role=\"menu\"",
-    "a_role=\"none presentation\""
+    "a_role=\"none presentation\"",
+    "video_role=\"region\"",
+    "dd_role=\"region\"",
+    "section_role=\"toolbar\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -455,7 +462,8 @@
     "hgf-button_aria-expanded_aria-haspopup",
     "hgf-button_aria-expanded",
     "a_aria-selected_href",
-    "div_role=\"list\""
+    "div_role=\"list\"",
+    "fieldset_role=\"group\""
   ],
   "select-name": [
     "select_name",
@@ -591,7 +599,8 @@
     "li_role=\"signin\"",
     "li_role=\"item\"",
     "section_role=\"section\"",
-    "picture_role=\"image\""
+    "picture_role=\"image\"",
+    "div_role=\"Search\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
