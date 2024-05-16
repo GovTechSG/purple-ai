@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/15/2024, 4:14:53 AM",
+  "lastUpdated": "5/16/2024, 4:12:12 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -326,7 +326,8 @@
     "dd_role=\"region\"",
     "section_role=\"toolbar\"",
     "summary_role=\"tab\"",
-    "details_role=\"tabpanel\""
+    "details_role=\"tabpanel\"",
+    "a_role=\"banner\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -560,7 +561,8 @@
     "article_aria-role_tabindex",
     "div_aria-label_aria-role_span_span_span_span",
     "a_aria-title_href_img_alt_src",
-    "a_aria-labeledby_href"
+    "a_aria-labeledby_href",
+    "a_aria-label-_href"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -663,6 +665,8 @@
     "input",
     "select_name_option_value",
     "textarea_name_style",
-    "select_aria-labelledby_aria-required_name_style"
+    "select_aria-labelledby_aria-required_name_style",
+    "input_name_title_value",
+    "input_aria-describedby_type"
   ]
 }
