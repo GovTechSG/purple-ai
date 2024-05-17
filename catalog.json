@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/16/2024, 4:12:12 AM",
+  "lastUpdated": "5/17/2024, 4:14:12 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -470,7 +470,8 @@
     "div_role=\"list\"",
     "fieldset_role=\"group\"",
     "ul_role=\"list\"",
-    "yt-tab-shape_aria-selected"
+    "yt-tab-shape_aria-selected",
+    "pc-accordion-trigger_aria-controls_aria-expanded_aria-label_pc-heading_h3"
   ],
   "select-name": [
     "select_name",
@@ -642,7 +643,8 @@
     "input_aria-invalid_aria-label_aria-required_formcontrolname_type",
     "input_aria-expanded_role_type",
     "input_aria-label_name",
-    "input_aria-autocomplete_type"
+    "input_aria-autocomplete_type",
+    "input_name_value"
   ],
   "svg-img-alt": [
     "svg_role_g_path",
