@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/17/2024, 4:14:12 AM",
+  "lastUpdated": "5/18/2024, 4:13:37 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -192,7 +192,9 @@
     "g_aria-describedby_role",
     "main_role_tabindex",
     "main_typeof",
-    "mio-toolbar_role"
+    "mio-toolbar_role",
+    "slideshow-carousel_role_style",
+    "price-list_aria-live_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -327,7 +329,8 @@
     "section_role=\"toolbar\"",
     "summary_role=\"tab\"",
     "details_role=\"tabpanel\"",
-    "a_role=\"banner\""
+    "a_role=\"banner\"",
+    "nav_role=\"toolbar\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -612,7 +615,8 @@
     "section_role=\"section\"",
     "picture_role=\"image\"",
     "div_role=\"Search\"",
-    "span_role=\"label\""
+    "span_role=\"label\"",
+    "div_role=\"filter\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
