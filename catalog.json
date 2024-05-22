@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/21/2024, 4:13:43 AM",
+  "lastUpdated": "5/22/2024, 4:13:58 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -330,7 +330,8 @@
     "summary_role=\"tab\"",
     "details_role=\"tabpanel\"",
     "a_role=\"banner\"",
-    "nav_role=\"toolbar\""
+    "nav_role=\"toolbar\"",
+    "h6_role=\"button\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
