@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/24/2024, 4:14:57 AM",
+  "lastUpdated": "5/25/2024, 4:13:23 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -534,7 +534,8 @@
     "footer_aria-hidden",
     "input_aria-hidden_type",
     "header_aria-hidden",
-    "dds-card-cta-footer_aria-hidden_href"
+    "dds-card-cta-footer_aria-hidden_href",
+    "td_aria-hidden_style"
   ],
   "aria-input-field-name": [
     "div_role_style",
