@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/30/2024, 4:17:04 AM",
+  "lastUpdated": "5/31/2024, 4:15:46 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -195,7 +195,8 @@
     "mio-toolbar_role",
     "slideshow-carousel_role_style",
     "price-list_aria-live_role",
-    "main_lang"
+    "main_lang",
+    "aside_tabindex"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
