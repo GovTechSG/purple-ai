@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/5/2024, 4:16:30 AM",
+  "lastUpdated": "7/6/2024, 4:15:00 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -197,7 +197,8 @@
     "slideshow-carousel_role_style",
     "price-list_aria-live_role",
     "main_lang",
-    "aside_tabindex"
+    "aside_tabindex",
+    "header_name_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
