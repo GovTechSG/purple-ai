@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/6/2024, 4:15:00 AM",
+  "lastUpdated": "7/7/2024, 4:14:41 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -198,7 +198,9 @@
     "price-list_aria-live_role",
     "main_lang",
     "aside_tabindex",
-    "header_name_style"
+    "header_name_style",
+    "nav_typeof",
+    "nav_role_typeof"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -337,7 +339,9 @@
     "nav_role=\"toolbar\"",
     "h6_role=\"button\"",
     "img_role=\"progressbar\"",
-    "img_role=\"link\""
+    "img_role=\"link\"",
+    "a_role=\"menu\"",
+    "summary_role=\"menuitem\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
