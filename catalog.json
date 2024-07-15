@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/14/2024, 4:16:48 AM",
+  "lastUpdated": "7/15/2024, 4:17:39 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -628,7 +628,12 @@
     "picture_role=\"image\"",
     "div_role=\"Search\"",
     "span_role=\"label\"",
-    "div_role=\"filter\""
+    "div_role=\"filter\"",
+    "table_role=\"content-container\"",
+    "td_role=\"modules-container\"",
+    "table_role=\"module\"",
+    "tr_role=\"module-content\"",
+    "td_role=\"module-content\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
