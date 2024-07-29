@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/28/2024, 4:13:52 AM",
+  "lastUpdated": "7/29/2024, 4:15:19 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -40,7 +40,8 @@
     "input_aria-checked_type",
     "textarea_style",
     "input_onclick_type",
-    "input_style"
+    "input_style",
+    "textarea_style_tabindex"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -75,7 +76,8 @@
     "dds-structured-list-row_role=\"row\"",
     "span_role=\"option\"",
     "sp-table-row_role=\"row\"",
-    "li_role=\"option\""
+    "li_role=\"option\"",
+    "forge-list-item_role=\"listitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -346,7 +348,9 @@
     "img_role=\"link\"",
     "a_role=\"menu\"",
     "summary_role=\"menuitem\"",
-    "h4_role=\"alert\""
+    "h4_role=\"alert\"",
+    "fieldset_role=\"form\"",
+    "caption_role=\"alert\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -492,7 +496,9 @@
     "yt-tab-shape_aria-selected",
     "pc-accordion-trigger_aria-controls_aria-expanded_aria-label_pc-heading_h3",
     "cabp-hyperlink_aria-expanded_aria-haspopup",
-    "fieldset_aria-multiselectable"
+    "fieldset_aria-multiselectable",
+    "button_aria-label_aria-valuemax_aria-valuemin_aria-valuetext",
+    "button_aria-selected"
   ],
   "select-name": [
     "select_name",
@@ -550,7 +556,9 @@
     "input_aria-hidden_type",
     "header_aria-hidden",
     "dds-card-cta-footer_aria-hidden_href",
-    "td_aria-hidden_style"
+    "td_aria-hidden_style",
+    "td_aria-hidden",
+    "main_aria-hidden_lang"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -585,7 +593,8 @@
     "div_aria-label_aria-role_span_span_span_span",
     "a_aria-title_href_img_alt_src",
     "a_aria-labeledby_href",
-    "a_aria-label-_href"
+    "a_aria-label-_href",
+    "li_aria-roledescripti"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -644,7 +653,8 @@
     "nav_role=\"”navigation”\"",
     "div_role=\"footer\"",
     "a_role=\"carousel-navigation\"",
-    "div_role=\"carousel-navigation\""
+    "div_role=\"carousel-navigation\"",
+    "nav_role=\"landmark\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
