@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/29/2024, 4:15:19 AM",
+  "lastUpdated": "7/30/2024, 4:14:58 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -41,7 +41,8 @@
     "textarea_style",
     "input_onclick_type",
     "input_style",
-    "textarea_style_tabindex"
+    "textarea_style_tabindex",
+    "textarea_aria-invalid_name"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -206,7 +207,8 @@
     "nav_typeof",
     "nav_role_typeof",
     "body_role",
-    "nav_styles"
+    "nav_styles",
+    "search_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -350,7 +352,11 @@
     "summary_role=\"menuitem\"",
     "h4_role=\"alert\"",
     "fieldset_role=\"form\"",
-    "caption_role=\"alert\""
+    "caption_role=\"alert\"",
+    "option_role=\"menuitem\"",
+    "a_role=\"region\"",
+    "aside_role=\"group\"",
+    "li_role=\"menu\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -558,7 +564,8 @@
     "dds-card-cta-footer_aria-hidden_href",
     "td_aria-hidden_style",
     "td_aria-hidden",
-    "main_aria-hidden_lang"
+    "main_aria-hidden_lang",
+    "section_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -654,7 +661,8 @@
     "div_role=\"footer\"",
     "a_role=\"carousel-navigation\"",
     "div_role=\"carousel-navigation\"",
-    "nav_role=\"landmark\""
+    "nav_role=\"landmark\"",
+    "div_role=\"note:\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
