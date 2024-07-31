@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/30/2024, 4:14:58 AM",
+  "lastUpdated": "7/31/2024, 4:12:33 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -576,7 +576,8 @@
     "div_role_div_role_div_role_div_role"
   ],
   "aria-toggle-field-name": [
-    "div_aria-describedby_aria-hidden_role_style_tabindex"
+    "div_aria-describedby_aria-hidden_role_style_tabindex",
+    "span_aria-selected_role_div_span_span"
   ],
   "aria-valid-attr": [
     "a_aria-controls_aria-disabled_aria-role_tabindex",
@@ -719,6 +720,7 @@
     "textarea_name_style",
     "select_aria-labelledby_aria-required_name_style",
     "input_name_title_value",
-    "input_aria-describedby_type"
+    "input_aria-describedby_type",
+    "select_aria-label_name"
   ]
 }
