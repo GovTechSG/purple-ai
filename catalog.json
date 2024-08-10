@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "8/9/2024, 4:15:44 AM",
+  "lastUpdated": "8/10/2024, 4:16:57 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -211,7 +211,8 @@
     "nav_role_typeof",
     "body_role",
     "nav_styles",
-    "search_role"
+    "search_role",
+    "bx-breadcrumb_role"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -726,6 +727,7 @@
     "select_aria-labelledby_aria-required_name_style",
     "input_name_title_value",
     "input_aria-describedby_type",
-    "select_aria-label_name"
+    "select_aria-label_name",
+    "input_style_value"
   ]
 }
