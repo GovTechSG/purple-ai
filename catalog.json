@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "10/23/2024, 4:17:13 AM",
+  "lastUpdated": "10/24/2024, 4:19:11 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -517,7 +517,8 @@
     "fieldset_aria-multiselectable",
     "button_aria-label_aria-valuemax_aria-valuemin_aria-valuetext",
     "button_aria-selected",
-    "ul_aria-multiselectable"
+    "ul_aria-multiselectable",
+    "input_role=\"combobox\""
   ],
   "select-name": [
     "select_name",
@@ -590,7 +591,8 @@
   ],
   "aria-toggle-field-name": [
     "div_aria-describedby_aria-hidden_role_style_tabindex",
-    "span_aria-selected_role_div_span_span"
+    "span_aria-selected_role_div_span_span",
+    "option_aria-selected_role_value"
   ],
   "aria-valid-attr": [
     "a_aria-controls_aria-disabled_aria-role_tabindex",
@@ -735,6 +737,7 @@
     "input_name_title_value",
     "input_aria-describedby_type",
     "select_aria-label_name",
-    "input_style_value"
+    "input_style_value",
+    "textarea_aria-multiline_name_role"
   ]
 }
