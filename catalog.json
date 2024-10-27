@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "10/26/2024, 4:17:06 AM",
+  "lastUpdated": "10/27/2024, 4:16:44 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -123,7 +123,8 @@
     "sp-table-head_role=\"row\"",
     "nav_role=\"menubar\"",
     "iras-table_role=\"row\"",
-    "accordion_role=\"tablist\""
+    "accordion_role=\"tablist\"",
+    "section_role=\"feed\""
   ],
   "landmark-unique": [
     "nav",
@@ -543,7 +544,8 @@
     "select_form_name",
     "select_aria-labelledby_name_role",
     "select_aria-labelledby_style",
-    "select_formcontrolname_style"
+    "select_formcontrolname_style",
+    "select_aria-invalid"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
@@ -581,7 +583,8 @@
     "td_aria-hidden_style",
     "td_aria-hidden",
     "main_aria-hidden_lang",
-    "section_aria-hidden"
+    "section_aria-hidden",
+    "div_aria-hidden_href"
   ],
   "aria-input-field-name": [
     "div_role_style",
