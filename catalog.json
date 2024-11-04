@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/3/2024, 4:16:34 AM",
+  "lastUpdated": "11/4/2024, 4:17:24 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -521,7 +521,8 @@
     "button_aria-label_aria-valuemax_aria-valuemin_aria-valuetext",
     "button_aria-selected",
     "ul_aria-multiselectable",
-    "input_role=\"combobox\""
+    "input_role=\"combobox\"",
+    "label_aria-required_for"
   ],
   "select-name": [
     "select_name",
