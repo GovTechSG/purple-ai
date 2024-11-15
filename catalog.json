@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/14/2024, 4:17:26 AM",
+  "lastUpdated": "11/15/2024, 4:17:48 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -216,7 +216,9 @@
     "body_role",
     "nav_styles",
     "search_role",
-    "bx-breadcrumb_role"
+    "bx-breadcrumb_role",
+    "footer_role_p_time",
+    "header_role_style"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
