@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/15/2024, 4:17:48 AM",
+  "lastUpdated": "11/16/2024, 4:17:27 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -218,7 +218,8 @@
     "search_role",
     "bx-breadcrumb_role",
     "footer_role_p_time",
-    "header_role_style"
+    "header_role_style",
+    "nav_class"
   ],
   "aria-allowed-role": [
     "button_role=\"presentation\"",
@@ -375,7 +376,8 @@
     "li_role=\"radiogroup\"",
     "section_role=\"heading\"",
     "aside_role=\"complementary\"",
-    "legend_role=\"presentation\""
+    "legend_role=\"presentation\"",
+    "button_role=\"navigation\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
