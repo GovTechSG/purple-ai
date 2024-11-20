@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/19/2024, 4:17:44 AM",
+  "lastUpdated": "11/20/2024, 4:18:01 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -378,7 +378,8 @@
     "aside_role=\"complementary\"",
     "legend_role=\"presentation\"",
     "button_role=\"navigation\"",
-    "img_role=\"tabpanel\""
+    "img_role=\"tabpanel\"",
+    "html_role=\"heading\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -532,7 +533,8 @@
     "button_aria-selected",
     "ul_aria-multiselectable",
     "input_role=\"combobox\"",
-    "label_aria-required_for"
+    "label_aria-required_for",
+    "html_aria-level_lang"
   ],
   "select-name": [
     "select_name",
@@ -721,7 +723,8 @@
     "g_role=\"scrollbar\"",
     "g_role=\"slider\"",
     "li_role=\"heading\"",
-    "label_role=\"radio\""
+    "label_role=\"radio\"",
+    "html_role=\"heading\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
@@ -757,6 +760,7 @@
     "input_aria-describedby_type",
     "select_aria-label_name",
     "input_style_value",
-    "textarea_aria-multiline_name_role"
+    "textarea_aria-multiline_name_role",
+    "select_name_tabindex"
   ]
 }
