@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/26/2024, 4:17:45 AM",
+  "lastUpdated": "11/27/2024, 4:19:08 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -125,7 +125,8 @@
     "nav_role=\"menubar\"",
     "iras-table_role=\"row\"",
     "accordion_role=\"tablist\"",
-    "section_role=\"feed\""
+    "section_role=\"feed\"",
+    "ol_role=\"tablist\""
   ],
   "landmark-unique": [
     "nav",
@@ -534,7 +535,9 @@
     "ul_aria-multiselectable",
     "input_role=\"combobox\"",
     "label_aria-required_for",
-    "html_aria-level_lang"
+    "html_aria-level_lang",
+    "label_aria-placeholder",
+    "label_aria-placeholder_strong"
   ],
   "select-name": [
     "select_name",
