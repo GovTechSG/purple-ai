@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/27/2024, 4:19:08 AM",
+  "lastUpdated": "11/28/2024, 4:18:14 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -702,7 +702,8 @@
     "a_role=\"carousel-navigation\"",
     "div_role=\"carousel-navigation\"",
     "nav_role=\"landmark\"",
-    "div_role=\"note:\""
+    "div_role=\"note:\"",
+    "div_role=\"select\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -727,7 +728,8 @@
     "g_role=\"slider\"",
     "li_role=\"heading\"",
     "label_role=\"radio\"",
-    "html_role=\"heading\""
+    "html_role=\"heading\"",
+    "div_role=\"checkbox\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
@@ -764,6 +766,7 @@
     "select_aria-label_name",
     "input_style_value",
     "textarea_aria-multiline_name_role",
-    "select_name_tabindex"
+    "select_name_tabindex",
+    "input_aria-label_formcontrolname_type"
   ]
 }
