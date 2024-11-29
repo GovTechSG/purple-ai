@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "11/28/2024, 4:18:14 AM",
+  "lastUpdated": "11/29/2024, 4:18:52 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -602,7 +602,8 @@
     "main_aria-hidden_lang",
     "section_aria-hidden",
     "div_aria-hidden_href",
-    "table_aria-describedby_aria-hidden_style"
+    "table_aria-describedby_aria-hidden_style",
+    "wd-app_aria-hidden"
   ],
   "aria-input-field-name": [
     "div_role_style",
@@ -641,7 +642,8 @@
     "a_aria-labeledby_href",
     "a_aria-label-_href",
     "li_aria-roledescripti",
-    "button_aria-lable_name_type"
+    "button_aria-lable_name_type",
+    "a_aria-labeldine_href_tabindex"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -703,7 +705,8 @@
     "div_role=\"carousel-navigation\"",
     "nav_role=\"landmark\"",
     "div_role=\"note:\"",
-    "div_role=\"select\""
+    "div_role=\"select\"",
+    "div_role=\"image\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
