@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/5/2024, 4:18:46 AM",
+  "lastUpdated": "12/6/2024, 4:18:51 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -126,7 +126,9 @@
     "iras-table_role=\"row\"",
     "accordion_role=\"tablist\"",
     "section_role=\"feed\"",
-    "ol_role=\"tablist\""
+    "ol_role=\"tablist\"",
+    "ul_role=\"tabList\"",
+    "fieldset_role=\"listbox\""
   ],
   "landmark-unique": [
     "nav",
@@ -380,7 +382,10 @@
     "legend_role=\"presentation\"",
     "button_role=\"navigation\"",
     "img_role=\"tabpanel\"",
-    "html_role=\"heading\""
+    "html_role=\"heading\"",
+    "fieldset_role=\"textbox\"",
+    "fieldset_role=\"listbox\"",
+    "fieldset_role=\"switch\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -537,7 +542,11 @@
     "label_aria-required_for",
     "html_aria-level_lang",
     "label_aria-placeholder",
-    "label_aria-placeholder_strong"
+    "label_aria-placeholder_strong",
+    "fieldset_role=\"presentation\"",
+    "div_role=\"group\"",
+    "button_aria-checked_type",
+    "button_aria-checked"
   ],
   "select-name": [
     "select_name",
@@ -733,7 +742,8 @@
     "li_role=\"heading\"",
     "label_role=\"radio\"",
     "html_role=\"heading\"",
-    "div_role=\"checkbox\""
+    "div_role=\"checkbox\"",
+    "fieldset_role=\"switch\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
