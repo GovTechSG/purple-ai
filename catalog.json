@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/6/2024, 4:18:51 AM",
+  "lastUpdated": "12/7/2024, 4:18:40 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -82,7 +82,9 @@
     "forge-list-item_role=\"listitem\"",
     "iras-table_role=\"row\"",
     "li_role=\"tab\"",
-    "p_role=\"listitem\""
+    "p_role=\"listitem\"",
+    "fieldset_role=\"option\"",
+    "fieldset_role=\"listitem\""
   ],
   "aria-required-children": [
     "ul_role=\"tablist\"",
@@ -128,7 +130,9 @@
     "section_role=\"feed\"",
     "ol_role=\"tablist\"",
     "ul_role=\"tabList\"",
-    "fieldset_role=\"listbox\""
+    "fieldset_role=\"listbox\"",
+    "fieldset_role=\"list\"",
+    "fieldset_role=\"tree\""
   ],
   "landmark-unique": [
     "nav",
@@ -385,7 +389,15 @@
     "html_role=\"heading\"",
     "fieldset_role=\"textbox\"",
     "fieldset_role=\"listbox\"",
-    "fieldset_role=\"switch\""
+    "fieldset_role=\"switch\"",
+    "html_role=\"main\"",
+    "fieldset_role=\"combobox\"",
+    "fieldset_role=\"searchbox\"",
+    "fieldset_role=\"option\"",
+    "fieldset_role=\"list\"",
+    "fieldset_role=\"listitem\"",
+    "fieldset_role=\"tree\"",
+    "a_role=\"heading\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -546,7 +558,13 @@
     "fieldset_role=\"presentation\"",
     "div_role=\"group\"",
     "button_aria-checked_type",
-    "button_aria-checked"
+    "button_aria-checked",
+    "fieldset_role=\"option\"",
+    "fieldset_role=\"list\"",
+    "fieldset_role=\"listitem\"",
+    "fieldset_role=\"select\"",
+    "fieldset_role=\"input\"",
+    "fieldset_role=\"composite\""
   ],
   "select-name": [
     "select_name",
@@ -652,7 +670,8 @@
     "a_aria-label-_href",
     "li_aria-roledescripti",
     "button_aria-lable_name_type",
-    "a_aria-labeldine_href_tabindex"
+    "a_aria-labeldine_href_tabindex",
+    "button_aria-labeledby_onclick"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
@@ -716,7 +735,11 @@
     "div_role=\"note:\"",
     "div_role=\"select\"",
     "div_role=\"image\"",
-    "div_role=\"rowcell\""
+    "div_role=\"rowcell\"",
+    "fieldset_role=\"select\"",
+    "fieldset_role=\"input\"",
+    "fieldset_role=\"composite\"",
+    "h2_role=\"input\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
@@ -743,7 +766,8 @@
     "label_role=\"radio\"",
     "html_role=\"heading\"",
     "div_role=\"checkbox\"",
-    "fieldset_role=\"switch\""
+    "fieldset_role=\"switch\"",
+    "fieldset_role=\"combobox\""
   ],
   "autocomplete-valid": [
     "input_name_style_tabindex_type",
