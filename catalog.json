@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/20/2024, 4:17:16 AM",
+  "lastUpdated": "12/21/2024, 4:16:28 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -564,7 +564,9 @@
     "fieldset_role=\"listitem\"",
     "fieldset_role=\"select\"",
     "fieldset_role=\"input\"",
-    "fieldset_role=\"composite\""
+    "fieldset_role=\"composite\"",
+    "p_aria-expanded",
+    "p_aria-expanded_strong"
   ],
   "select-name": [
     "select_name",
