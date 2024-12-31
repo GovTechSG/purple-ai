@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "12/30/2024, 4:17:12 AM",
+  "lastUpdated": "12/31/2024, 4:16:56 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -743,7 +743,8 @@
     "fieldset_role=\"input\"",
     "fieldset_role=\"composite\"",
     "h2_role=\"input\"",
-    "a_role=\"DCP logo\""
+    "a_role=\"DCP logo\"",
+    "li_role=\"tablistitem\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
