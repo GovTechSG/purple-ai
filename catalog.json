@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "3/6/2025, 4:17:27 AM",
+  "lastUpdated": "3/7/2025, 4:17:55 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -682,7 +682,8 @@
     "li_aria-roledescripti",
     "button_aria-lable_name_type",
     "a_aria-labeldine_href_tabindex",
-    "button_aria-labeledby_onclick"
+    "button_aria-labeledby_onclick",
+    "button_aria-_aria-expanded_aria-label_type"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
