@@ -21,9 +21,7 @@ jobs:
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Run Purple AI Updater script 
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_API_ENDPOINT }}
-          OPENAI_FLOW_ID: ${{ secrets.OPENAI_FLOW_ID }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           SCOPE: ${{ secrets.SCOPE }}
           GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
