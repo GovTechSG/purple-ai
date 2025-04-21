@@ -13,7 +13,7 @@ config();
 
 const serviceAccountAuth = new JWT({
     email: process.env.GOOGLE_CLIENT_EMAIL,
-    key: process.env.GOOGLE_PRIVATE_KEY, 
+    key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'), 
     scopes: [
         'https://www.googleapis.com/auth/spreadsheets'
     ]
@@ -109,6 +109,7 @@ const generateAIResponses = async (issues) => {
         const { ruleID, htmlSnippet, basicHTMLLabel, promptHTMLSnippet } = i;
         const needsQuery = utils.needsQuery(ruleID, htmlSnippet, basicHTMLLabel, catalog); 
         if (needsQuery) {
+            console.log(`Requesting AI responses for ${ruleID}`);
             const response = await getAIResponse(promptHTMLSnippet, ruleID); 
             if (response) {
                 utils.writeAIResponse(ruleID, basicHTMLLabel, response); 
