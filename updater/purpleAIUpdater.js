@@ -19,21 +19,35 @@ const serviceAccountAuth = new JWT({
     ]
 })
 
-const HEADERS = {
+const TOGETHER_HEADERS = {
     "Content-Type": "application/json",
-    "Authorization": process.env.OPENAI_API_KEY
-}
+    "Authorization": `Bearer ${process.env.TOGETHER_API_KEY}`
+};
 
-const query = async (payload) => {
+const query = async (prompt) => {
     try {
-      const response = await axios.post(process.env.OPENAI_API_ENDPOINT, payload, { headers: HEADERS });
-      return { status: response.status, answer: response.data.data[0].llm_response.content };
+      const response = await axios.post(
+        "https://api.together.xyz/v1/chat/completions",
+        {
+          model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+          messages: [
+            { role: "user", content: prompt }
+          ],
+          max_tokens: 512,
+          temperature: 0.7
+        },
+        { headers: TOGETHER_HEADERS }
+      );
+      return {
+        status: response.status,
+        answer: response.data.choices[0].message.content.trim()
+      };
     } catch (error) {
-      const errorMessage = `${error}: ${error.response.config.data}`
+      const errorMessage = `${error}: ${error?.response?.config?.data}`;
       silentLogger.error(errorMessage);
-      return { status: error.response.status }
+      return { status: error?.response?.status || 500 };
     }
-}
+  };
 
 const getDataFromGoogleSheets = async () => {
     const sheet = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
@@ -82,12 +96,7 @@ const getAIResponse = async (promptHTMLSnippet, ruleID) => {
 
     console.log(prompt);
 
-    const result = await query({
-        "flow_id": process.env.OPENAI_FLOW_ID, 
-        "inputs": [{
-            "prompt": prompt
-        }]
-    })
+    const result = await query(prompt);
 
     console.log(result)
     return result.status === 200 ? result.answer : null;
