@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "5/30/2025, 4:20:06 AM",
+  "lastUpdated": "5/31/2025, 4:19:37 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -578,7 +578,8 @@
     "s-menu-toggle-action-button_aria-controls_aria-expanded_contentlevel",
     "ul_role=\"menubar\"",
     "button_role=\"radio\"",
-    "div_role=\"region\""
+    "div_role=\"region\"",
+    "button_role=\"tab\""
   ],
   "select-name": [
     "select_name",
@@ -687,7 +688,8 @@
     "button_aria-lable_name_type",
     "a_aria-labeldine_href_tabindex",
     "button_aria-labeledby_onclick",
-    "button_aria-_aria-expanded_aria-label_type"
+    "button_aria-_aria-expanded_aria-label_type",
+    "div_aria-hidden_aria-labelledby_aria-role_style_tabindex"
   ],
   "aria-roles": [
     "section_role=\"main-content\"",
