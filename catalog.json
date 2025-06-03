@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/2/2025, 4:26:55 AM",
+  "lastUpdated": "6/3/2025, 4:22:49 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -579,7 +579,8 @@
     "ul_role=\"menubar\"",
     "button_role=\"radio\"",
     "div_role=\"region\"",
-    "button_role=\"tab\""
+    "button_role=\"tab\"",
+    "div_role=\"presentation\""
   ],
   "select-name": [
     "select_name",
