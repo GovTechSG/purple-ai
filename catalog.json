@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/3/2025, 4:22:49 AM",
+  "lastUpdated": "6/4/2025, 4:23:25 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -403,7 +403,8 @@
     "fieldset_role=\"tree\"",
     "a_role=\"heading\"",
     "hr_role=\"menuitem\"",
-    "ul_role=\"menuitem\""
+    "ul_role=\"menuitem\"",
+    "option_role=\"tab\""
   ],
   "presentation-role-conflict": [
     "button_role_type_i",
@@ -606,7 +607,8 @@
     "select_aria-labelledby_style",
     "select_formcontrolname_style",
     "select_aria-invalid",
-    "select_name_onclick_type-nav"
+    "select_name_onclick_type-nav",
+    "select_arial-label_name"
   ],
   "aria-hidden-focus": [
     "div_aria-hidden_style",
