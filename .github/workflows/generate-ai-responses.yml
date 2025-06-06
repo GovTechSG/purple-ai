@@ -2,7 +2,10 @@ name: Purple AI Updater
 on: 
    workflow_dispatch:
    schedule:
-     - cron: '0 4 * * *'
+     - cron: '0 0 * * *'    # 8 AM GMT+8
+     - cron: '0 8 * * *'    # 4 PM GMT+8
+     - cron: '0 16 * * *'   # 12 AM GMT+8 (next day locally)
+
 jobs: 
   purpleAIUpdater: 
     runs-on: ubuntu-latest
