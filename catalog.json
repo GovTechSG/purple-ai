@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/13/2025, 1:28:02 AM",
+  "lastUpdated": "6/13/2025, 8:25:25 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -584,7 +584,8 @@
     "button_role=\"radio\"",
     "div_role=\"region\"",
     "button_role=\"tab\"",
-    "div_role=\"presentation\""
+    "div_role=\"presentation\"",
+    "label_role=\"label\""
   ],
   "select-name": [
     "select_name",
@@ -768,7 +769,8 @@
     "h2_role=\"input\"",
     "a_role=\"DCP logo\"",
     "li_role=\"tablistitem\"",
-    "a_role=\"generic\""
+    "a_role=\"generic\"",
+    "label_role=\"label\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
