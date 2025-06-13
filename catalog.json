@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/13/2025, 8:25:25 AM",
+  "lastUpdated": "6/13/2025, 4:22:29 PM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -45,7 +45,8 @@
     "textarea_aria-invalid_name",
     "input_aria-haspopup_aria-invalid_value",
     "textarea_name_onclick",
-    "textarea_onclick"
+    "textarea_onclick",
+    "textarea_name_type"
   ],
   "aria-required-parent": [
     "a_role=\"tab\"",
@@ -585,7 +586,8 @@
     "div_role=\"region\"",
     "button_role=\"tab\"",
     "div_role=\"presentation\"",
-    "label_role=\"label\""
+    "label_role=\"label\"",
+    "nx-menu_aria-expanded"
   ],
   "select-name": [
     "select_name",
