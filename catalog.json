@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/12/2025, 4:22:09 PM",
+  "lastUpdated": "6/13/2025, 1:28:02 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -462,7 +462,8 @@
     "ul_aria-label_role",
     "tbody",
     "ul_li_li_li",
-    "e2-brand-description"
+    "e2-brand-description",
+    "figcaption"
   ],
   "aria-allowed-attr": [
     "div_aria-expanded",
@@ -652,7 +653,8 @@
     "div_aria-hidden_href",
     "table_aria-describedby_aria-hidden_style",
     "wd-app_aria-hidden",
-    "main_aria-hidden"
+    "main_aria-hidden",
+    "section_aria-hidden_aria-labelledby"
   ],
   "aria-input-field-name": [
     "div_role_style",
