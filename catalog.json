@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "6/15/2025, 1:44:31 AM",
+  "lastUpdated": "6/15/2025, 8:22:03 AM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -778,7 +778,8 @@
     "a_role=\"DCP logo\"",
     "li_role=\"tablistitem\"",
     "a_role=\"generic\"",
-    "label_role=\"label\""
+    "label_role=\"label\"",
+    "div_role=\"role\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
