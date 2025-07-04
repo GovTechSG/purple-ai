@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "7/4/2025, 8:25:48 AM",
+  "lastUpdated": "7/4/2025, 4:21:45 PM",
   "label": [
     "input_tabindex_value",
     "input_type_value",
@@ -781,7 +781,8 @@
     "li_role=\"tablistitem\"",
     "a_role=\"generic\"",
     "label_role=\"label\"",
-    "div_role=\"role\""
+    "div_role=\"role\"",
+    "iframe_role=\"iframe\""
   ],
   "meta-viewport-large": ["meta_content_name"],
   "aria-required-attr": [
