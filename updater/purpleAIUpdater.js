@@ -25,29 +25,35 @@ const TOGETHER_HEADERS = {
 };
 
 const query = async (prompt) => {
-    try {
-      const response = await axios.post(
-        "https://api.together.xyz/v1/chat/completions",
-        {
-          model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-          messages: [
-            { role: "user", content: prompt }
-          ],
-          max_tokens: 512,
-          temperature: 0.7
+  try {
+    const response = await axios.post(
+      'https://models.github.ai/inference/chat/completions',
+      {
+        model: 'Llama-3.3-70B-Instruct',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 512,
+        temperature: 0.7,
+      },
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`, // or GitHub PAT
+          'X-GitHub-Api-Version': '2022-11-28',
+          'Accept': 'application/vnd.github+json',
         },
-        { headers: TOGETHER_HEADERS }
-      );
-      return {
-        status: response.status,
-        answer: response.data.choices[0].message.content.trim()
-      };
-    } catch (error) {
-      const errorMessage = `${error}: ${error?.response?.config?.data}`;
-      silentLogger.error(errorMessage);
-      return { status: error?.response?.status || 500 };
-    }
-  };
+      }
+    );
+
+    return {
+      status: response.status,
+      answer: response.data.choices[0].message.content.trim(),
+    };
+  } catch (error) {
+    const errorMessage = `${error}: ${error?.response?.config?.data}`;
+    silentLogger.error(errorMessage);
+    return { status: error?.response?.status || 500 };
+  }
+};
 
 const getDataFromGoogleSheets = async () => {
     const sheet = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
