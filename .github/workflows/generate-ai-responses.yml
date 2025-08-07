@@ -27,7 +27,6 @@ jobs:
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Run Purple AI Updater script 
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCOPE: ${{ secrets.SCOPE }}
           GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
