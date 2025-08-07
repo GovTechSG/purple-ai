@@ -6,6 +6,9 @@ on:
      - cron: '0 8 * * *'    # 4 PM GMT+8
      - cron: '0 16 * * *'   # 12 AM GMT+8 (next day locally)
 
+permissions:
+  models: read
+  
 jobs: 
   purpleAIUpdater: 
     runs-on: ubuntu-latest
@@ -24,7 +27,7 @@ jobs:
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Run Purple AI Updater script 
         env:
-          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCOPE: ${{ secrets.SCOPE }}
           GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
